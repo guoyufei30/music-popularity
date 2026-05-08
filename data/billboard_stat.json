@@ -1,0 +1,5462 @@
+{
+  "year": [
+    {
+      "year": 1958,
+      "new_entries": 352,
+      "total_entries": 2200,
+      "entry_rate": 0.16,
+      "entry_by_rank": {
+        "top10": 10,
+        "top20": 10,
+        "top40": 22,
+        "40plus": 310
+      },
+      "top10_debut": 10,
+      "top20_debut": 10
+    },
+    {
+      "year": 1959,
+      "new_entries": 573,
+      "total_entries": 5200,
+      "entry_rate": 0.11019230769230769,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 2,
+        "40plus": 571
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1960,
+      "new_entries": 607,
+      "total_entries": 5300,
+      "entry_rate": 0.11452830188679246,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 3,
+        "40plus": 604
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1961,
+      "new_entries": 677,
+      "total_entries": 5200,
+      "entry_rate": 0.1301923076923077,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 676
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1962,
+      "new_entries": 659,
+      "total_entries": 5200,
+      "entry_rate": 0.12673076923076923,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 659
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1963,
+      "new_entries": 662,
+      "total_entries": 5200,
+      "entry_rate": 0.12730769230769232,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 661
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1964,
+      "new_entries": 717,
+      "total_entries": 5200,
+      "entry_rate": 0.13788461538461538,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 3,
+        "40plus": 714
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1965,
+      "new_entries": 706,
+      "total_entries": 5200,
+      "entry_rate": 0.13576923076923078,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 2,
+        "40plus": 703
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 1966,
+      "new_entries": 740,
+      "total_entries": 5300,
+      "entry_rate": 0.13962264150943396,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 4,
+        "40plus": 736
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1967,
+      "new_entries": 736,
+      "total_entries": 5200,
+      "entry_rate": 0.14153846153846153,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 2,
+        "40plus": 734
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1968,
+      "new_entries": 679,
+      "total_entries": 5200,
+      "entry_rate": 0.1305769230769231,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 0,
+        "top40": 6,
+        "40plus": 672
+      },
+      "top10_debut": 1,
+      "top20_debut": 0
+    },
+    {
+      "year": 1969,
+      "new_entries": 667,
+      "total_entries": 5200,
+      "entry_rate": 0.12826923076923077,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 1,
+        "top40": 2,
+        "40plus": 663
+      },
+      "top10_debut": 1,
+      "top20_debut": 1
+    },
+    {
+      "year": 1970,
+      "new_entries": 633,
+      "total_entries": 5200,
+      "entry_rate": 0.12173076923076923,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 0,
+        "top40": 2,
+        "40plus": 630
+      },
+      "top10_debut": 1,
+      "top20_debut": 0
+    },
+    {
+      "year": 1971,
+      "new_entries": 612,
+      "total_entries": 5200,
+      "entry_rate": 0.1176923076923077,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 1,
+        "40plus": 610
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 1972,
+      "new_entries": 583,
+      "total_entries": 5300,
+      "entry_rate": 0.11,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 583
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1973,
+      "new_entries": 506,
+      "total_entries": 5200,
+      "entry_rate": 0.0973076923076923,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 506
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1974,
+      "new_entries": 494,
+      "total_entries": 5200,
+      "entry_rate": 0.095,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 494
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1975,
+      "new_entries": 556,
+      "total_entries": 5200,
+      "entry_rate": 0.10692307692307693,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 556
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1976,
+      "new_entries": 523,
+      "total_entries": 5200,
+      "entry_rate": 0.10057692307692308,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 522
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1977,
+      "new_entries": 467,
+      "total_entries": 5300,
+      "entry_rate": 0.08811320754716981,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 0,
+        "40plus": 467
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1978,
+      "new_entries": 442,
+      "total_entries": 5200,
+      "entry_rate": 0.085,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 2,
+        "40plus": 440
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1979,
+      "new_entries": 483,
+      "total_entries": 5200,
+      "entry_rate": 0.09288461538461538,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 4,
+        "40plus": 479
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1980,
+      "new_entries": 450,
+      "total_entries": 5200,
+      "entry_rate": 0.08653846153846154,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 7,
+        "40plus": 443
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1981,
+      "new_entries": 410,
+      "total_entries": 5200,
+      "entry_rate": 0.07884615384615384,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 7,
+        "40plus": 403
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1982,
+      "new_entries": 429,
+      "total_entries": 5200,
+      "entry_rate": 0.0825,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 4,
+        "40plus": 425
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1983,
+      "new_entries": 440,
+      "total_entries": 5300,
+      "entry_rate": 0.0830188679245283,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 11,
+        "40plus": 429
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1984,
+      "new_entries": 431,
+      "total_entries": 5200,
+      "entry_rate": 0.08288461538461539,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 7,
+        "40plus": 423
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 1985,
+      "new_entries": 404,
+      "total_entries": 5200,
+      "entry_rate": 0.07769230769230769,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 6,
+        "40plus": 398
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1986,
+      "new_entries": 396,
+      "total_entries": 5200,
+      "entry_rate": 0.07615384615384616,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 2,
+        "40plus": 394
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1987,
+      "new_entries": 388,
+      "total_entries": 5200,
+      "entry_rate": 0.07461538461538461,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 5,
+        "40plus": 383
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1988,
+      "new_entries": 380,
+      "total_entries": 5300,
+      "entry_rate": 0.07169811320754717,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 379
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1989,
+      "new_entries": 385,
+      "total_entries": 5200,
+      "entry_rate": 0.07403846153846154,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 3,
+        "40plus": 382
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1990,
+      "new_entries": 377,
+      "total_entries": 5200,
+      "entry_rate": 0.0725,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 7,
+        "40plus": 370
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 1991,
+      "new_entries": 379,
+      "total_entries": 5195,
+      "entry_rate": 0.07295476419634264,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 9,
+        "40plus": 369
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 1992,
+      "new_entries": 358,
+      "total_entries": 5200,
+      "entry_rate": 0.06884615384615385,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 3,
+        "top40": 10,
+        "40plus": 345
+      },
+      "top10_debut": 0,
+      "top20_debut": 3
+    },
+    {
+      "year": 1993,
+      "new_entries": 341,
+      "total_entries": 5200,
+      "entry_rate": 0.06557692307692307,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 2,
+        "top40": 3,
+        "40plus": 336
+      },
+      "top10_debut": 0,
+      "top20_debut": 2
+    },
+    {
+      "year": 1994,
+      "new_entries": 338,
+      "total_entries": 5300,
+      "entry_rate": 0.06377358490566037,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 6,
+        "40plus": 331
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 1995,
+      "new_entries": 332,
+      "total_entries": 5200,
+      "entry_rate": 0.06384615384615384,
+      "entry_by_rank": {
+        "top10": 11,
+        "top20": 3,
+        "top40": 25,
+        "40plus": 293
+      },
+      "top10_debut": 11,
+      "top20_debut": 3
+    },
+    {
+      "year": 1996,
+      "new_entries": 306,
+      "total_entries": 5200,
+      "entry_rate": 0.05884615384615385,
+      "entry_by_rank": {
+        "top10": 11,
+        "top20": 10,
+        "top40": 28,
+        "40plus": 257
+      },
+      "top10_debut": 11,
+      "top20_debut": 10
+    },
+    {
+      "year": 1997,
+      "new_entries": 327,
+      "total_entries": 5200,
+      "entry_rate": 0.06288461538461539,
+      "entry_by_rank": {
+        "top10": 16,
+        "top20": 12,
+        "top40": 40,
+        "40plus": 259
+      },
+      "top10_debut": 16,
+      "top20_debut": 12
+    },
+    {
+      "year": 1998,
+      "new_entries": 355,
+      "total_entries": 5200,
+      "entry_rate": 0.06826923076923076,
+      "entry_by_rank": {
+        "top10": 18,
+        "top20": 20,
+        "top40": 47,
+        "40plus": 270
+      },
+      "top10_debut": 18,
+      "top20_debut": 20
+    },
+    {
+      "year": 1999,
+      "new_entries": 310,
+      "total_entries": 5200,
+      "entry_rate": 0.05961538461538462,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 3,
+        "top40": 10,
+        "40plus": 296
+      },
+      "top10_debut": 1,
+      "top20_debut": 3
+    },
+    {
+      "year": 2000,
+      "new_entries": 316,
+      "total_entries": 5300,
+      "entry_rate": 0.059622641509433964,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 1,
+        "top40": 7,
+        "40plus": 308
+      },
+      "top10_debut": 0,
+      "top20_debut": 1
+    },
+    {
+      "year": 2001,
+      "new_entries": 288,
+      "total_entries": 5200,
+      "entry_rate": 0.055384615384615386,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 2,
+        "top40": 4,
+        "40plus": 281
+      },
+      "top10_debut": 1,
+      "top20_debut": 2
+    },
+    {
+      "year": 2002,
+      "new_entries": 302,
+      "total_entries": 5200,
+      "entry_rate": 0.058076923076923075,
+      "entry_by_rank": {
+        "top10": 0,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 301
+      },
+      "top10_debut": 0,
+      "top20_debut": 0
+    },
+    {
+      "year": 2003,
+      "new_entries": 307,
+      "total_entries": 5200,
+      "entry_rate": 0.05903846153846154,
+      "entry_by_rank": {
+        "top10": 3,
+        "top20": 0,
+        "top40": 1,
+        "40plus": 303
+      },
+      "top10_debut": 3,
+      "top20_debut": 0
+    },
+    {
+      "year": 2004,
+      "new_entries": 303,
+      "total_entries": 5200,
+      "entry_rate": 0.05826923076923077,
+      "entry_by_rank": {
+        "top10": 2,
+        "top20": 2,
+        "top40": 3,
+        "40plus": 296
+      },
+      "top10_debut": 2,
+      "top20_debut": 2
+    },
+    {
+      "year": 2005,
+      "new_entries": 344,
+      "total_entries": 5300,
+      "entry_rate": 0.0649056603773585,
+      "entry_by_rank": {
+        "top10": 3,
+        "top20": 2,
+        "top40": 9,
+        "40plus": 330
+      },
+      "top10_debut": 3,
+      "top20_debut": 2
+    },
+    {
+      "year": 2006,
+      "new_entries": 366,
+      "total_entries": 5200,
+      "entry_rate": 0.07038461538461538,
+      "entry_by_rank": {
+        "top10": 1,
+        "top20": 7,
+        "top40": 16,
+        "40plus": 342
+      },
+      "top10_debut": 1,
+      "top20_debut": 7
+    },
+    {
+      "year": 2007,
+      "new_entries": 352,
+      "total_entries": 5200,
+      "entry_rate": 0.06769230769230769,
+      "entry_by_rank": {
+        "top10": 7,
+        "top20": 4,
+        "top40": 12,
+        "40plus": 329
+      },
+      "top10_debut": 7,
+      "top20_debut": 4
+    },
+    {
+      "year": 2008,
+      "new_entries": 411,
+      "total_entries": 5200,
+      "entry_rate": 0.07903846153846154,
+      "entry_by_rank": {
+        "top10": 15,
+        "top20": 18,
+        "top40": 27,
+        "40plus": 351
+      },
+      "top10_debut": 15,
+      "top20_debut": 18
+    },
+    {
+      "year": 2009,
+      "new_entries": 429,
+      "total_entries": 5200,
+      "entry_rate": 0.0825,
+      "entry_by_rank": {
+        "top10": 11,
+        "top20": 13,
+        "top40": 34,
+        "40plus": 371
+      },
+      "top10_debut": 11,
+      "top20_debut": 13
+    },
+    {
+      "year": 2010,
+      "new_entries": 474,
+      "total_entries": 5200,
+      "entry_rate": 0.09115384615384615,
+      "entry_by_rank": {
+        "top10": 15,
+        "top20": 22,
+        "top40": 51,
+        "40plus": 386
+      },
+      "top10_debut": 15,
+      "top20_debut": 22
+    },
+    {
+      "year": 2011,
+      "new_entries": 484,
+      "total_entries": 5300,
+      "entry_rate": 0.09132075471698113,
+      "entry_by_rank": {
+        "top10": 17,
+        "top20": 26,
+        "top40": 34,
+        "40plus": 407
+      },
+      "top10_debut": 17,
+      "top20_debut": 26
+    },
+    {
+      "year": 2012,
+      "new_entries": 363,
+      "total_entries": 5200,
+      "entry_rate": 0.0698076923076923,
+      "entry_by_rank": {
+        "top10": 12,
+        "top20": 13,
+        "top40": 24,
+        "40plus": 314
+      },
+      "top10_debut": 12,
+      "top20_debut": 13
+    },
+    {
+      "year": 2013,
+      "new_entries": 381,
+      "total_entries": 5200,
+      "entry_rate": 0.07326923076923077,
+      "entry_by_rank": {
+        "top10": 10,
+        "top20": 17,
+        "top40": 19,
+        "40plus": 335
+      },
+      "top10_debut": 10,
+      "top20_debut": 17
+    },
+    {
+      "year": 2014,
+      "new_entries": 361,
+      "total_entries": 5200,
+      "entry_rate": 0.06942307692307692,
+      "entry_by_rank": {
+        "top10": 4,
+        "top20": 16,
+        "top40": 23,
+        "40plus": 318
+      },
+      "top10_debut": 4,
+      "top20_debut": 16
+    },
+    {
+      "year": 2015,
+      "new_entries": 392,
+      "total_entries": 5200,
+      "entry_rate": 0.07538461538461538,
+      "entry_by_rank": {
+        "top10": 9,
+        "top20": 5,
+        "top40": 24,
+        "40plus": 354
+      },
+      "top10_debut": 9,
+      "top20_debut": 5
+    },
+    {
+      "year": 2016,
+      "new_entries": 410,
+      "total_entries": 5300,
+      "entry_rate": 0.07735849056603773,
+      "entry_by_rank": {
+        "top10": 13,
+        "top20": 17,
+        "top40": 37,
+        "40plus": 343
+      },
+      "top10_debut": 13,
+      "top20_debut": 17
+    },
+    {
+      "year": 2017,
+      "new_entries": 460,
+      "total_entries": 5200,
+      "entry_rate": 0.08846153846153847,
+      "entry_by_rank": {
+        "top10": 14,
+        "top20": 11,
+        "top40": 32,
+        "40plus": 403
+      },
+      "top10_debut": 14,
+      "top20_debut": 11
+    },
+    {
+      "year": 2018,
+      "new_entries": 596,
+      "total_entries": 5200,
+      "entry_rate": 0.11461538461538462,
+      "entry_by_rank": {
+        "top10": 40,
+        "top20": 35,
+        "top40": 71,
+        "40plus": 450
+      },
+      "top10_debut": 40,
+      "top20_debut": 35
+    },
+    {
+      "year": 2019,
+      "new_entries": 525,
+      "total_entries": 5200,
+      "entry_rate": 0.10096153846153846,
+      "entry_by_rank": {
+        "top10": 21,
+        "top20": 27,
+        "top40": 54,
+        "40plus": 423
+      },
+      "top10_debut": 21,
+      "top20_debut": 27
+    },
+    {
+      "year": 2020,
+      "new_entries": 680,
+      "total_entries": 5200,
+      "entry_rate": 0.13076923076923078,
+      "entry_by_rank": {
+        "top10": 44,
+        "top20": 31,
+        "top40": 96,
+        "40plus": 509
+      },
+      "top10_debut": 44,
+      "top20_debut": 31
+    },
+    {
+      "year": 2021,
+      "new_entries": 576,
+      "total_entries": 4700,
+      "entry_rate": 0.1225531914893617,
+      "entry_by_rank": {
+        "top10": 46,
+        "top20": 44,
+        "top40": 58,
+        "40plus": 428
+      },
+      "top10_debut": 46,
+      "top20_debut": 44
+    }
+  ],
+  "month": [
+    {
+      "year": 1958,
+      "month": 8,
+      "new_entries": 164,
+      "total_entries": 500
+    },
+    {
+      "year": 1958,
+      "month": 9,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1958,
+      "month": 10,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 1958,
+      "month": 11,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 1958,
+      "month": 12,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 1,
+      "new_entries": 55,
+      "total_entries": 500
+    },
+    {
+      "year": 1959,
+      "month": 2,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 3,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 4,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 5,
+      "new_entries": 63,
+      "total_entries": 500
+    },
+    {
+      "year": 1959,
+      "month": 6,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 7,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 8,
+      "new_entries": 54,
+      "total_entries": 500
+    },
+    {
+      "year": 1959,
+      "month": 9,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 10,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 1959,
+      "month": 11,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 1959,
+      "month": 12,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 1,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 1960,
+      "month": 2,
+      "new_entries": 51,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 3,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 4,
+      "new_entries": 54,
+      "total_entries": 500
+    },
+    {
+      "year": 1960,
+      "month": 5,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 6,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 7,
+      "new_entries": 50,
+      "total_entries": 500
+    },
+    {
+      "year": 1960,
+      "month": 8,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 9,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 10,
+      "new_entries": 64,
+      "total_entries": 500
+    },
+    {
+      "year": 1960,
+      "month": 11,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1960,
+      "month": 12,
+      "new_entries": 72,
+      "total_entries": 500
+    },
+    {
+      "year": 1961,
+      "month": 1,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 2,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 3,
+      "new_entries": 60,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 4,
+      "new_entries": 73,
+      "total_entries": 500
+    },
+    {
+      "year": 1961,
+      "month": 5,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 6,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 7,
+      "new_entries": 66,
+      "total_entries": 500
+    },
+    {
+      "year": 1961,
+      "month": 8,
+      "new_entries": 53,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 9,
+      "new_entries": 74,
+      "total_entries": 500
+    },
+    {
+      "year": 1961,
+      "month": 10,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 11,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1961,
+      "month": 12,
+      "new_entries": 58,
+      "total_entries": 500
+    },
+    {
+      "year": 1962,
+      "month": 1,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 2,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 3,
+      "new_entries": 69,
+      "total_entries": 500
+    },
+    {
+      "year": 1962,
+      "month": 4,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 5,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 6,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 1962,
+      "month": 7,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 8,
+      "new_entries": 65,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 9,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 1962,
+      "month": 10,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 11,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1962,
+      "month": 12,
+      "new_entries": 73,
+      "total_entries": 500
+    },
+    {
+      "year": 1963,
+      "month": 1,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 2,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 3,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1963,
+      "month": 4,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 5,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 6,
+      "new_entries": 70,
+      "total_entries": 500
+    },
+    {
+      "year": 1963,
+      "month": 7,
+      "new_entries": 51,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 8,
+      "new_entries": 60,
+      "total_entries": 500
+    },
+    {
+      "year": 1963,
+      "month": 9,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 10,
+      "new_entries": 53,
+      "total_entries": 400
+    },
+    {
+      "year": 1963,
+      "month": 11,
+      "new_entries": 73,
+      "total_entries": 500
+    },
+    {
+      "year": 1963,
+      "month": 12,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 1,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 2,
+      "new_entries": 70,
+      "total_entries": 500
+    },
+    {
+      "year": 1964,
+      "month": 3,
+      "new_entries": 56,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 4,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 5,
+      "new_entries": 73,
+      "total_entries": 500
+    },
+    {
+      "year": 1964,
+      "month": 6,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 7,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 8,
+      "new_entries": 67,
+      "total_entries": 500
+    },
+    {
+      "year": 1964,
+      "month": 9,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 10,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1964,
+      "month": 11,
+      "new_entries": 56,
+      "total_entries": 400
+    },
+    {
+      "year": 1964,
+      "month": 12,
+      "new_entries": 56,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 1,
+      "new_entries": 64,
+      "total_entries": 500
+    },
+    {
+      "year": 1965,
+      "month": 2,
+      "new_entries": 59,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 3,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 4,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 5,
+      "new_entries": 70,
+      "total_entries": 500
+    },
+    {
+      "year": 1965,
+      "month": 6,
+      "new_entries": 54,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 7,
+      "new_entries": 67,
+      "total_entries": 500
+    },
+    {
+      "year": 1965,
+      "month": 8,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 9,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 10,
+      "new_entries": 61,
+      "total_entries": 500
+    },
+    {
+      "year": 1965,
+      "month": 11,
+      "new_entries": 53,
+      "total_entries": 400
+    },
+    {
+      "year": 1965,
+      "month": 12,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 1,
+      "new_entries": 67,
+      "total_entries": 500
+    },
+    {
+      "year": 1966,
+      "month": 2,
+      "new_entries": 54,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 3,
+      "new_entries": 60,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 4,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1966,
+      "month": 5,
+      "new_entries": 60,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 6,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 7,
+      "new_entries": 71,
+      "total_entries": 500
+    },
+    {
+      "year": 1966,
+      "month": 8,
+      "new_entries": 51,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 9,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 10,
+      "new_entries": 75,
+      "total_entries": 500
+    },
+    {
+      "year": 1966,
+      "month": 11,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1966,
+      "month": 12,
+      "new_entries": 70,
+      "total_entries": 500
+    },
+    {
+      "year": 1967,
+      "month": 1,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 2,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 3,
+      "new_entries": 60,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 4,
+      "new_entries": 76,
+      "total_entries": 500
+    },
+    {
+      "year": 1967,
+      "month": 5,
+      "new_entries": 61,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 6,
+      "new_entries": 61,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 7,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1967,
+      "month": 8,
+      "new_entries": 64,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 9,
+      "new_entries": 70,
+      "total_entries": 500
+    },
+    {
+      "year": 1967,
+      "month": 10,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 11,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 1967,
+      "month": 12,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1968,
+      "month": 1,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 2,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 3,
+      "new_entries": 71,
+      "total_entries": 500
+    },
+    {
+      "year": 1968,
+      "month": 4,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 5,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 6,
+      "new_entries": 62,
+      "total_entries": 500
+    },
+    {
+      "year": 1968,
+      "month": 7,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 8,
+      "new_entries": 68,
+      "total_entries": 500
+    },
+    {
+      "year": 1968,
+      "month": 9,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 10,
+      "new_entries": 60,
+      "total_entries": 400
+    },
+    {
+      "year": 1968,
+      "month": 11,
+      "new_entries": 69,
+      "total_entries": 500
+    },
+    {
+      "year": 1968,
+      "month": 12,
+      "new_entries": 54,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 1,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 2,
+      "new_entries": 54,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 3,
+      "new_entries": 60,
+      "total_entries": 500
+    },
+    {
+      "year": 1969,
+      "month": 4,
+      "new_entries": 56,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 5,
+      "new_entries": 76,
+      "total_entries": 500
+    },
+    {
+      "year": 1969,
+      "month": 6,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 7,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 8,
+      "new_entries": 72,
+      "total_entries": 500
+    },
+    {
+      "year": 1969,
+      "month": 9,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 10,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1969,
+      "month": 11,
+      "new_entries": 64,
+      "total_entries": 500
+    },
+    {
+      "year": 1969,
+      "month": 12,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 1,
+      "new_entries": 50,
+      "total_entries": 500
+    },
+    {
+      "year": 1970,
+      "month": 2,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 3,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 4,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 5,
+      "new_entries": 65,
+      "total_entries": 500
+    },
+    {
+      "year": 1970,
+      "month": 6,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 7,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 8,
+      "new_entries": 63,
+      "total_entries": 500
+    },
+    {
+      "year": 1970,
+      "month": 9,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 10,
+      "new_entries": 59,
+      "total_entries": 500
+    },
+    {
+      "year": 1970,
+      "month": 11,
+      "new_entries": 49,
+      "total_entries": 400
+    },
+    {
+      "year": 1970,
+      "month": 12,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 1,
+      "new_entries": 50,
+      "total_entries": 500
+    },
+    {
+      "year": 1971,
+      "month": 2,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 3,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 4,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 5,
+      "new_entries": 60,
+      "total_entries": 500
+    },
+    {
+      "year": 1971,
+      "month": 6,
+      "new_entries": 53,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 7,
+      "new_entries": 52,
+      "total_entries": 500
+    },
+    {
+      "year": 1971,
+      "month": 8,
+      "new_entries": 51,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 9,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 10,
+      "new_entries": 60,
+      "total_entries": 500
+    },
+    {
+      "year": 1971,
+      "month": 11,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1971,
+      "month": 12,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 1,
+      "new_entries": 52,
+      "total_entries": 500
+    },
+    {
+      "year": 1972,
+      "month": 2,
+      "new_entries": 48,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 3,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 4,
+      "new_entries": 61,
+      "total_entries": 500
+    },
+    {
+      "year": 1972,
+      "month": 5,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 6,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 7,
+      "new_entries": 50,
+      "total_entries": 500
+    },
+    {
+      "year": 1972,
+      "month": 8,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 9,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 1972,
+      "month": 10,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 11,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1972,
+      "month": 12,
+      "new_entries": 52,
+      "total_entries": 500
+    },
+    {
+      "year": 1973,
+      "month": 1,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 2,
+      "new_entries": 50,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 3,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1973,
+      "month": 4,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 5,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 6,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1973,
+      "month": 7,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 8,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 9,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 1973,
+      "month": 10,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 11,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1973,
+      "month": 12,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1974,
+      "month": 1,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 2,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 3,
+      "new_entries": 47,
+      "total_entries": 500
+    },
+    {
+      "year": 1974,
+      "month": 4,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 5,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 6,
+      "new_entries": 53,
+      "total_entries": 500
+    },
+    {
+      "year": 1974,
+      "month": 7,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 8,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1974,
+      "month": 9,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 10,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 1974,
+      "month": 11,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 1974,
+      "month": 12,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 1,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 2,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 3,
+      "new_entries": 50,
+      "total_entries": 500
+    },
+    {
+      "year": 1975,
+      "month": 4,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 5,
+      "new_entries": 54,
+      "total_entries": 500
+    },
+    {
+      "year": 1975,
+      "month": 6,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 7,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 8,
+      "new_entries": 57,
+      "total_entries": 500
+    },
+    {
+      "year": 1975,
+      "month": 9,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 10,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1975,
+      "month": 11,
+      "new_entries": 53,
+      "total_entries": 500
+    },
+    {
+      "year": 1975,
+      "month": 12,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 1,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1976,
+      "month": 2,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 3,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 4,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 5,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 1976,
+      "month": 6,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 7,
+      "new_entries": 49,
+      "total_entries": 500
+    },
+    {
+      "year": 1976,
+      "month": 8,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 9,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 10,
+      "new_entries": 45,
+      "total_entries": 500
+    },
+    {
+      "year": 1976,
+      "month": 11,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1976,
+      "month": 12,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 1,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1977,
+      "month": 2,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 3,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 4,
+      "new_entries": 45,
+      "total_entries": 500
+    },
+    {
+      "year": 1977,
+      "month": 5,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 6,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 7,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1977,
+      "month": 8,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 9,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 10,
+      "new_entries": 48,
+      "total_entries": 500
+    },
+    {
+      "year": 1977,
+      "month": 11,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1977,
+      "month": 12,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 1978,
+      "month": 1,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 2,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 3,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 4,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1978,
+      "month": 5,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 6,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 7,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1978,
+      "month": 8,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 9,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1978,
+      "month": 10,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 11,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1978,
+      "month": 12,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 1979,
+      "month": 1,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 2,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 3,
+      "new_entries": 48,
+      "total_entries": 500
+    },
+    {
+      "year": 1979,
+      "month": 4,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 5,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 6,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1979,
+      "month": 7,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 8,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 9,
+      "new_entries": 44,
+      "total_entries": 500
+    },
+    {
+      "year": 1979,
+      "month": 10,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 11,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1979,
+      "month": 12,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 1980,
+      "month": 1,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 2,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 3,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1980,
+      "month": 4,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 5,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1980,
+      "month": 6,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 7,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 8,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1980,
+      "month": 9,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 10,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1980,
+      "month": 11,
+      "new_entries": 45,
+      "total_entries": 500
+    },
+    {
+      "year": 1980,
+      "month": 12,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 1,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 1981,
+      "month": 2,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 3,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 4,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 5,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1981,
+      "month": 6,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 7,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 8,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1981,
+      "month": 9,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 10,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1981,
+      "month": 11,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1981,
+      "month": 12,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 1,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 1982,
+      "month": 2,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 3,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 4,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 5,
+      "new_entries": 47,
+      "total_entries": 500
+    },
+    {
+      "year": 1982,
+      "month": 6,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 7,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 1982,
+      "month": 8,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 9,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 10,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1982,
+      "month": 11,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1982,
+      "month": 12,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 1,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 1983,
+      "month": 2,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 3,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 4,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1983,
+      "month": 5,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 6,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 7,
+      "new_entries": 43,
+      "total_entries": 500
+    },
+    {
+      "year": 1983,
+      "month": 8,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 9,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 10,
+      "new_entries": 47,
+      "total_entries": 500
+    },
+    {
+      "year": 1983,
+      "month": 11,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1983,
+      "month": 12,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 1984,
+      "month": 1,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 2,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 3,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1984,
+      "month": 4,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 5,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 6,
+      "new_entries": 45,
+      "total_entries": 500
+    },
+    {
+      "year": 1984,
+      "month": 7,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 8,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 9,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 1984,
+      "month": 10,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 11,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1984,
+      "month": 12,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1985,
+      "month": 1,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 3,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1985,
+      "month": 4,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 5,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 6,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 1985,
+      "month": 7,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 8,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1985,
+      "month": 9,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 10,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1985,
+      "month": 11,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1985,
+      "month": 12,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 1,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 2,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 3,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 1986,
+      "month": 4,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 5,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 1986,
+      "month": 6,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 7,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 8,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1986,
+      "month": 9,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 10,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1986,
+      "month": 11,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1986,
+      "month": 12,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 1,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 1987,
+      "month": 2,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 3,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 4,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 5,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 1987,
+      "month": 6,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 7,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 8,
+      "new_entries": 43,
+      "total_entries": 500
+    },
+    {
+      "year": 1987,
+      "month": 9,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 10,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 1987,
+      "month": 11,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1987,
+      "month": 12,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 1,
+      "new_entries": 25,
+      "total_entries": 500
+    },
+    {
+      "year": 1988,
+      "month": 2,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 3,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 4,
+      "new_entries": 44,
+      "total_entries": 500
+    },
+    {
+      "year": 1988,
+      "month": 5,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 6,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 7,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1988,
+      "month": 8,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 9,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 10,
+      "new_entries": 44,
+      "total_entries": 500
+    },
+    {
+      "year": 1988,
+      "month": 11,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1988,
+      "month": 12,
+      "new_entries": 24,
+      "total_entries": 500
+    },
+    {
+      "year": 1989,
+      "month": 1,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 2,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 3,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 4,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 1989,
+      "month": 5,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 6,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 7,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1989,
+      "month": 8,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 9,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 1989,
+      "month": 10,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 11,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1989,
+      "month": 12,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 1990,
+      "month": 1,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 2,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 3,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1990,
+      "month": 4,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 5,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 6,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 1990,
+      "month": 7,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 8,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 9,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1990,
+      "month": 10,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 11,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1990,
+      "month": 12,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1991,
+      "month": 1,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 3,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1991,
+      "month": 4,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 5,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 6,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 1991,
+      "month": 7,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 8,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 1991,
+      "month": 9,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 10,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 1991,
+      "month": 11,
+      "new_entries": 39,
+      "total_entries": 497
+    },
+    {
+      "year": 1991,
+      "month": 12,
+      "new_entries": 21,
+      "total_entries": 398
+    },
+    {
+      "year": 1992,
+      "month": 1,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 2,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1992,
+      "month": 3,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 4,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 5,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 1992,
+      "month": 6,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 7,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 8,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1992,
+      "month": 9,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 10,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 1992,
+      "month": 11,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1992,
+      "month": 12,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 1,
+      "new_entries": 25,
+      "total_entries": 500
+    },
+    {
+      "year": 1993,
+      "month": 2,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 3,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 4,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 5,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1993,
+      "month": 6,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 7,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 1993,
+      "month": 8,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 9,
+      "new_entries": 17,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 10,
+      "new_entries": 43,
+      "total_entries": 500
+    },
+    {
+      "year": 1993,
+      "month": 11,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1993,
+      "month": 12,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 1,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 1994,
+      "month": 2,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 3,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 4,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 1994,
+      "month": 5,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 6,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 7,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 1994,
+      "month": 8,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 9,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 10,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 1994,
+      "month": 11,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1994,
+      "month": 12,
+      "new_entries": 25,
+      "total_entries": 500
+    },
+    {
+      "year": 1995,
+      "month": 1,
+      "new_entries": 18,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 2,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 3,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 4,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1995,
+      "month": 5,
+      "new_entries": 19,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 6,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 7,
+      "new_entries": 26,
+      "total_entries": 500
+    },
+    {
+      "year": 1995,
+      "month": 8,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 9,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 1995,
+      "month": 10,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 11,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 1995,
+      "month": 12,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 1996,
+      "month": 1,
+      "new_entries": 15,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 2,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 3,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 1996,
+      "month": 4,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 5,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 6,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 1996,
+      "month": 7,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 8,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 1996,
+      "month": 9,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 10,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 1996,
+      "month": 11,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 1996,
+      "month": 12,
+      "new_entries": 19,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 1,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 3,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 1997,
+      "month": 4,
+      "new_entries": 18,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 5,
+      "new_entries": 26,
+      "total_entries": 500
+    },
+    {
+      "year": 1997,
+      "month": 6,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 7,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 8,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 1997,
+      "month": 9,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 10,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1997,
+      "month": 11,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1997,
+      "month": 12,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 1,
+      "new_entries": 21,
+      "total_entries": 500
+    },
+    {
+      "year": 1998,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 3,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 4,
+      "new_entries": 18,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 5,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 1998,
+      "month": 6,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 7,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 8,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1998,
+      "month": 9,
+      "new_entries": 18,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 10,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 1998,
+      "month": 11,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 1998,
+      "month": 12,
+      "new_entries": 75,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 1,
+      "new_entries": 20,
+      "total_entries": 500
+    },
+    {
+      "year": 1999,
+      "month": 2,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 3,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 4,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 5,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 1999,
+      "month": 6,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 7,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 1999,
+      "month": 8,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 9,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 10,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 1999,
+      "month": 11,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 1999,
+      "month": 12,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 1,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 2000,
+      "month": 2,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 3,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 7,
+      "new_entries": 22,
+      "total_entries": 500
+    },
+    {
+      "year": 2000,
+      "month": 8,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 9,
+      "new_entries": 26,
+      "total_entries": 500
+    },
+    {
+      "year": 2000,
+      "month": 10,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 11,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 2001,
+      "month": 1,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 2,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 3,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 6,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 8,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "new_entries": 26,
+      "total_entries": 500
+    },
+    {
+      "year": 2001,
+      "month": 10,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 11,
+      "new_entries": 15,
+      "total_entries": 400
+    },
+    {
+      "year": 2001,
+      "month": 12,
+      "new_entries": 23,
+      "total_entries": 500
+    },
+    {
+      "year": 2002,
+      "month": 1,
+      "new_entries": 19,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 2,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 3,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 5,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 6,
+      "new_entries": 24,
+      "total_entries": 500
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 8,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 2002,
+      "month": 9,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 10,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 2002,
+      "month": 11,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 2002,
+      "month": 12,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "new_entries": 13,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 2003,
+      "month": 6,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "new_entries": 15,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 2003,
+      "month": 9,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 10,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "new_entries": 22,
+      "total_entries": 500
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2004,
+      "month": 6,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 10,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2004,
+      "month": 12,
+      "new_entries": 21,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "new_entries": 23,
+      "total_entries": 500
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "new_entries": 33,
+      "total_entries": 500
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 9,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 10,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2005,
+      "month": 12,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 2006,
+      "month": 1,
+      "new_entries": 16,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 6,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 7,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "new_entries": 15,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "new_entries": 22,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2007,
+      "month": 12,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 2,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "new_entries": 39,
+      "total_entries": 500
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "new_entries": 52,
+      "total_entries": 500
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "new_entries": 24,
+      "total_entries": 500
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "new_entries": 51,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "new_entries": 26,
+      "total_entries": 500
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "new_entries": 51,
+      "total_entries": 500
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "new_entries": 60,
+      "total_entries": 500
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "new_entries": 41,
+      "total_entries": 500
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "new_entries": 48,
+      "total_entries": 500
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "new_entries": 46,
+      "total_entries": 500
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "new_entries": 44,
+      "total_entries": 500
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "new_entries": 23,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "new_entries": 31,
+      "total_entries": 500
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "new_entries": 28,
+      "total_entries": 500
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "new_entries": 34,
+      "total_entries": 500
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "new_entries": 37,
+      "total_entries": 500
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "new_entries": 26,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "new_entries": 20,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "new_entries": 42,
+      "total_entries": 500
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "new_entries": 27,
+      "total_entries": 500
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "new_entries": 36,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "new_entries": 27,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "new_entries": 32,
+      "total_entries": 500
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "new_entries": 40,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "new_entries": 29,
+      "total_entries": 500
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "new_entries": 38,
+      "total_entries": 500
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "new_entries": 43,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "new_entries": 30,
+      "total_entries": 500
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "new_entries": 25,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "new_entries": 35,
+      "total_entries": 500
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "new_entries": 58,
+      "total_entries": 500
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "new_entries": 28,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "new_entries": 42,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "new_entries": 39,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "new_entries": 40,
+      "total_entries": 500
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "new_entries": 34,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "new_entries": 49,
+      "total_entries": 500
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "new_entries": 24,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "new_entries": 36,
+      "total_entries": 500
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "new_entries": 47,
+      "total_entries": 500
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "new_entries": 62,
+      "total_entries": 500
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "new_entries": 58,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "new_entries": 52,
+      "total_entries": 500
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "new_entries": 52,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "new_entries": 45,
+      "total_entries": 400
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "new_entries": 64,
+      "total_entries": 500
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "new_entries": 49,
+      "total_entries": 500
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "new_entries": 38,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "new_entries": 29,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "new_entries": 56,
+      "total_entries": 500
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "new_entries": 31,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "new_entries": 58,
+      "total_entries": 500
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "new_entries": 55,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "new_entries": 44,
+      "total_entries": 400
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "new_entries": 49,
+      "total_entries": 500
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "new_entries": 35,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "new_entries": 37,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "new_entries": 71,
+      "total_entries": 500
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "new_entries": 82,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "new_entries": 82,
+      "total_entries": 500
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "new_entries": 46,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "new_entries": 54,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "new_entries": 48,
+      "total_entries": 500
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "new_entries": 33,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "new_entries": 54,
+      "total_entries": 500
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "new_entries": 57,
+      "total_entries": 400
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "new_entries": 69,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "new_entries": 65,
+      "total_entries": 500
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "new_entries": 30,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "new_entries": 32,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "new_entries": 47,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "new_entries": 61,
+      "total_entries": 500
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "new_entries": 62,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "new_entries": 59,
+      "total_entries": 500
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "new_entries": 41,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "new_entries": 72,
+      "total_entries": 400
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "new_entries": 67,
+      "total_entries": 500
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "new_entries": 40,
+      "total_entries": 300
+    }
+  ]
+}

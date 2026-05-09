@@ -23,13 +23,11 @@
             --accent-light: #eef2ff;
             --highlight: #b45309;
         }
-
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-
         body {
             margin: 0;
             background: #f5f6f8;
@@ -38,8 +36,6 @@
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }
-
-        /* ============ 页面标题区 ============ */
         .page-title-area {
             background: #ffffff;
             border-bottom: 2px solid #1a1a2e;
@@ -59,8 +55,6 @@
             color: var(--text-caption);
             font-style: italic;
         }
-
-        /* 全局重置按钮 */
         .global-reset {
             position: fixed;
             top: 20px;
@@ -82,15 +76,11 @@
             background: var(--accent);
             color: #ffffff;
         }
-
-        /* ============ 主体 ============ */
         main {
             max-width: 1320px;
             margin: 0 auto;
             padding: 28px 40px 60px;
         }
-
-        /* ============ 摘要区 ============ */
         .abstract-box {
             background: #ffffff;
             border: 1px solid var(--border-light);
@@ -112,8 +102,6 @@
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
-        /* ============ 论文章节 ============ */
         .paper-section {
             background: #ffffff;
             border: 1px solid var(--border-light);
@@ -122,8 +110,6 @@
             margin-bottom: 32px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
         }
-
-        /* 标题栏 + 内嵌控件 */
         .section-heading {
             position: sticky;
             top: 20px;
@@ -156,8 +142,6 @@
             margin: 0;
             line-height: 1.2;
         }
-
-        /* 标题栏内的控件组 */
         .section-controls {
             display: flex;
             flex-wrap: wrap;
@@ -214,8 +198,6 @@
             margin-left: 4px;
             white-space: nowrap;
         }
-
-        /* 预设按钮组特殊样式 */
         .preset-buttons {
             display: flex;
             gap: 6px;
@@ -247,7 +229,6 @@
             font-size: 11px;
             color: #64748b;
         }
-
         .section-header-group {
             position: sticky;
             top: 20px;
@@ -315,7 +296,6 @@
             cursor: pointer;
             pointer-events: auto;
         }
-
         .small-chart-controls {
             display: flex;
             flex-wrap: wrap;
@@ -335,7 +315,6 @@
             width: 240px;
             max-width: 100%;
         }
-
         .rank-pill-group {
             display: flex;
             flex-wrap: wrap;
@@ -361,7 +340,6 @@
             color: #ffffff;
             border-color: #2563eb;
         }
-
         .range-labels {
             display: flex;
             align-items: center;
@@ -370,7 +348,6 @@
             font-size: 13px;
             margin-top: 8px;
         }
-
         .section-body {
             padding: 20px 24px 24px;
         }
@@ -388,8 +365,6 @@
         .section-body .intro-text li {
             margin-bottom: 4px;
         }
-
-        /* ============ 分析要点 - 普通段落样式 ============ */
         .analysis-para {
             margin: 16px 0;
             padding: 0;
@@ -416,8 +391,50 @@
         .analysis-para strong {
             color: #1a1a2e;
         }
-
-        /* ============ 图表区域 ============ */
+        .section-summary {
+            margin-top: 24px;
+            padding: 16px 20px;
+            background: #f0f4f8;
+            border-left: 4px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .section-summary .summary-label {
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .conclusion-box {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-top: 3px solid var(--accent);
+            border-radius: 4px;
+            padding: 24px 28px;
+            margin-top: 32px;
+        }
+        .conclusion-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+        .conclusion-box p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.9;
+            margin-bottom: 12px;
+        }
+        .conclusion-box .highlight {
+            color: var(--highlight);
+            font-weight: 600;
+        }
         .figure-group {
             margin-bottom: 16px;
         }
@@ -449,46 +466,18 @@
             padding: 8px;
             background: #fdfdfd;
         }
-
-        /* 尺寸等级 */
-        .figure-item.size-4 {
-            grid-column: span 4;
-        }
-        .figure-item.size-5 {
-            grid-column: span 5;
-        }
-        .figure-item.size-6 {
-            grid-column: span 6;
-        }
-        .figure-item.size-7 {
-            grid-column: span 7;
-        }
-        .figure-item.size-8 {
-            grid-column: span 8;
-        }
-        .figure-item.size-12 {
-            grid-column: span 12;
-        }
-        .figure-item.size-4 .chart-container {
-            min-height: 340px;
-        }
-        .figure-item.size-5 .chart-container {
-            min-height: 340px;
-        }
-        .figure-item.size-6 .chart-container {
-            min-height: 360px;
-        }
-        .figure-item.size-7 .chart-container {
-            min-height: 400px;
-        }
-        .figure-item.size-8 .chart-container {
-            min-height: 400px;
-        }
-        .figure-item.size-12 .chart-container {
-            min-height: 340px;
-        }
-
-        /* 图注 */
+        .figure-item.size-4 { grid-column: span 4; }
+        .figure-item.size-5 { grid-column: span 5; }
+        .figure-item.size-6 { grid-column: span 6; }
+        .figure-item.size-7 { grid-column: span 7; }
+        .figure-item.size-8 { grid-column: span 8; }
+        .figure-item.size-12 { grid-column: span 12; }
+        .figure-item.size-4 .chart-container { min-height: 340px; }
+        .figure-item.size-5 .chart-container { min-height: 340px; }
+        .figure-item.size-6 .chart-container { min-height: 360px; }
+        .figure-item.size-7 .chart-container { min-height: 400px; }
+        .figure-item.size-8 .chart-container { min-height: 400px; }
+        .figure-item.size-12 .chart-container { min-height: 400px; }
         .figure-caption {
             font-size: 12px;
             color: var(--text-caption);
@@ -509,8 +498,6 @@
             font-style: italic;
             color: #9ca3af;
         }
-
-        /* ============ 页脚 ============ */
         .paper-footer {
             background: #ffffff;
             border-top: 2px solid #1a1a2e;
@@ -527,115 +514,138 @@
             text-transform: uppercase;
             margin-bottom: 6px;
         }
-
-        /* ============ 响应式 ============ */
         @media (max-width: 1100px) {
-            .page-title-area {
-                padding: 22px 24px 16px;
-            }
-            main {
-                padding: 20px 24px 40px;
-            }
-            .section-body {
-                padding: 16px 18px;
-            }
-            .section-heading {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .figure-row {
-                grid-template-columns: repeat(6, 1fr);
-            }
-            .figure-item.size-4,
-            .figure-item.size-5,
-            .figure-item.size-6 {
+            .page-title-area { padding: 22px 24px 16px; }
+            main { padding: 20px 24px 40px; }
+            .section-body { padding: 16px 18px; }
+            .section-heading { flex-direction: column; align-items: flex-start; }
+            .figure-row { grid-template-columns: repeat(6, 1fr); }
+            .figure-item.size-4, .figure-item.size-5, .figure-item.size-6,
+            .figure-item.size-7, .figure-item.size-8, .figure-item.size-12 {
                 grid-column: span 6;
             }
-            .figure-item.size-7,
-            .figure-item.size-8 {
-                grid-column: span 6;
-            }
-            .figure-item.size-12 {
-                grid-column: span 6;
-            }
-            .figure-item .chart-container {
-                min-height: 300px !important;
-            }
-            .global-reset {
-                top: 12px;
-                right: 12px;
-                padding: 6px 12px;
-                font-size: 11px;
-            }
-            .analysis-para {
-                margin: 12px 0;
-                font-size: 13px;
-            }
+            .figure-item .chart-container { min-height: 300px !important; }
+            .global-reset { top: 12px; right: 12px; padding: 6px 12px; font-size: 11px; }
+            .analysis-para { margin: 12px 0; font-size: 13px; }
         }
         @media (max-width: 680px) {
-            .page-title-area .main-title {
-                font-size: 20px;
-            }
-            .page-title-area {
-                padding: 16px;
-            }
-            main {
-                padding: 12px;
-            }
-            .section-body {
-                padding: 12px;
-            }
-            .section-heading {
-                padding: 14px 16px;
-            }
-            .figure-row {
-                grid-template-columns: 1fr;
-            }
-            .figure-item {
-                grid-column: 1 / -1 !important;
-            }
-            .figure-item .chart-container {
-                min-height: 280px !important;
-            }
-            .section-controls .ctrl-separator {
-                display: none;
-            }
-            .preset-buttons {
-                width: 100%;
-            }
-            .custom-controls {
-                margin-left: 0;
-                padding-left: 0;
-                border-left: none;
-                width: 100%;
-                justify-content: flex-start;
-            }
+            .page-title-area .main-title { font-size: 20px; }
+            .page-title-area { padding: 16px; }
+            main { padding: 12px; }
+            .section-body { padding: 12px; }
+            .section-heading { padding: 14px 16px; }
+            .figure-row { grid-template-columns: 1fr; }
+            .figure-item { grid-column: 1 / -1 !important; }
+            .figure-item .chart-container { min-height: 280px !important; }
+            .section-controls .ctrl-separator { display: none; }
+            .preset-buttons { width: 100%; }
+            .custom-controls { margin-left: 0; padding-left: 0; border-left: none; width: 100%; justify-content: flex-start; }
         }
+        /* ============ 传播介质时间轴 ============ */
+.media-timeline {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 12px 0;
+    backdrop-filter: blur(4px);
+}
+
+.media-timeline-progress {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-indicator {
+    position: absolute;
+    right: -4px;
+    top: 0;
+    width: 3px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: top 0.1s linear;
+}
+
+.media-node {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 12px 0;
+}
+
+.media-dot {
+    width: 8px;
+    height: 8px;
+    background: #cbd5e1;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.media-node.active .media-dot {
+    background: var(--accent);
+    transform: scale(1.3);
+    box-shadow: 0 0 0 3px rgba(44, 62, 107, 0.2);
+}
+
+.media-node:hover .media-dot {
+    background: var(--accent);
+    transform: scale(1.2);
+}
+
+.media-label {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 4px 10px;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+
+.media-node.active .media-label {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.media-line {
+    width: 1px;
+    height: 24px;
+    background: #e2e8f0;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .media-timeline {
+        display: none;
+    }
+}
     </style>
 </head>
 
 <body>
-
-    <!-- ==================== 页面标题区 ==================== -->
     <div class="page-title-area">
         <div class="main-title">音乐流行趋势的多维特征分析与交互式可视化</div>
         <div class="subtitle">基于 Spotify 音频特征与 Billboard 历史榜单数据 · 交互式数据探索系统</div>
     </div>
-
-    <!-- 全局重置按钮 -->
-    <button class="global-reset" onclick="resetAllFilters()" title="重置所有筛选条件">↺ 重置全部</button>
-
+    <button class="global-reset" onclick="resetAllFilters()" title="重置所有筛选条件">重置全部</button>
     <main>
-        <!-- ==================== 摘要 ==================== -->
         <div class="abstract-box">
             <h3>Abstract · 摘要</h3>
-            <p>
-                本研究基于 Spotify 音频特征数据与 Billboard 历史榜单数据，构建了一个交互式音乐流行趋势分析系统。
-                系统从四个维度展开分析：(1) 音乐声学特征（Energy、Danceability、Valence）与流行度的关联模式；
-                (2) 用户播放列表场景分类下的情绪特征差异；(3) 流行歌曲的历史生命周期及新歌上榜难度变迁；
-                通过散点图、雷达图、山脊图、热力图等多维可视化方法，揭示了流行音乐中"高能量、高舞动性"的爆款特征模式、
-                近年来新歌上榜难度逐渐增加的趋势，以及歌曲时长、响度等制作维度的时代变迁。
-            </p>
+            <p>本研究基于 Spotify 音频特征数据与 Billboard 历史榜单数据，构建了一个交互式音乐流行趋势分析系统。系统从三个维度展开分析：(1) 音乐声学特征与流行度的关联模式；(2) 用户播放列表场景分类下的情绪特征差异；(3) 流行歌曲的历史生命周期及新歌上榜难度变迁。通过散点图、平行坐标图、山脊图、热力图、生命周期曲线等多维可视化方法，揭示了流行音乐中"高能量、高舞动性"的爆款特征模式、近年来新歌上榜难度逐渐增加的趋势，以及流媒体时代榜单生态的根本性变迁。</p>
         </div>
 
         <!-- ==================== 第一节 ==================== -->
@@ -647,13 +657,10 @@
                 </div>
                 <div class="section-controls">
                     <div class="preset-buttons">
-                        <!-- 只保留一个 Y 轴为 popularity 的预设 -->
                         <button class="active" data-preset="energy_pop" onclick="setPresetAxis(event, 'energy', 'popularity')">能量 vs 流行度</button>
-                        
-                        <!-- 其他预设使用非 popularity 的有意义组合 -->
                         <button data-preset="energy_dance" onclick="setPresetAxis(event, 'energy', 'danceability')">能量 vs 舞动性</button>
                         <button data-preset="loudness_energy" onclick="setPresetAxis(event, 'loudness', 'energy')">响度 vs 能量</button>
-                        <button data-preset="duration_dance" onclick="setPresetAxis(event, 'duration_sec', 'danceability')">⏱时长 vs 舞动性</button>
+                        <button data-preset="duration_dance" onclick="setPresetAxis(event, 'duration_sec', 'danceability')">时长 vs 舞动性</button>
                         <button data-preset="acoustic_energy" onclick="setPresetAxis(event, 'acousticness', 'energy')">原声性 vs 能量</button>
                     </div>
                     <div class="custom-controls">
@@ -678,61 +685,57 @@
             </div>
             <div class="section-body">
                 <div class="intro-text">
-                    <p>本节基于 Spotify 音频特征数据集，探讨 Energy（能量感）、Danceability（舞动性）、Valence（情绪效价）、Loudness（响度）、Duration（时长）五个核心声学维度与歌曲流行度之间的统计关系。</p>
+                    <p>本节基于 Spotify 音频特征数据集，探讨 Energy（能量感）、Danceability（舞动性）、Valence（情绪效价）、Loudness（响度）、Duration（时长）五个核心声学维度与歌曲流行度之间的统计关系。数据来源于 Spotify 百万播放列表数据集，抽样一万份，包含 10000 条歌曲的 10 个声学维度特征。</p>
                     <ul>
-                        <li><strong>图 1(a)</strong>：气泡图展示特征关联，气泡大小编码流行度。<strong>受 Fig. 1(b)(c) 筛选影响</strong>。</li>
-                        <li><strong>图 1(b)</strong>：流行度四分层样本分布，<strong>点击柱子可筛选</strong>对应层级，影响 Fig. 1(a) 和 Fig. 1(d)。</li>
-                        <li><strong>图 1(c)</strong>：音乐类别平均流行度排序，<strong>点击可筛选</strong>类别，影响 Fig. 1(a) 和 Fig. 1(d)。</li>
-                        <li><strong>图 1(d)</strong>：高流行度与低流行度歌曲的声学特征对比（Energy、Danceability、Valence、Loudness、Duration）。<strong>受 Fig. 1(b)(c) 筛选影响</strong>。</li>
+                        <li><strong>图 1(a)</strong>：气泡图展示特征关联，气泡大小编码流行度。受 Fig. 1(b)(c) 筛选影响。</li>
+                        <li><strong>图 1(b)</strong>：流行度四分层样本分布，点击柱子可筛选对应层级，影响 Fig. 1(a) 和 Fig. 1(d)。</li>
+                        <li><strong>图 1(c)</strong>：音乐类别平均流行度排序，点击可筛选类别，影响 Fig. 1(a) 和 Fig. 1(d)。</li>
+                        <li><strong>图 1(d)</strong>：高流行度与低流行度歌曲的声学特征平行坐标图。</li>
                     </ul>
-                    <p><em>交互提示：点击 Fig. 1(b) 柱子或 Fig. 1(c) 类别可筛选数据，Fig. 1(a) 和 Fig. 1(d) 会同步更新。</em></p>
+                    <p>交互提示：点击 Fig. 1(b) 柱子或 Fig. 1(c) 类别可筛选数据，Fig. 1(a) 和 Fig. 1(d) 会同步更新。</p>
                 </div>
-
-                <!-- 图组 1-1：散点图 + 柱状图 -->
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-7" style="grid-row: span 2;">
                             <div class="chart-container" id="popScatter" style="min-height: 680px;"></div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 1(a)</span> 音频特征与流行度关联散点图。横轴为选定声学特征，纵轴为选定指标，气泡面积 ∝ 流行度。
+                                <span class="fig-label">Fig. 1(a)</span> 音频特征与流行度关联散点图。气泡面积与流行度成正比。
                                 颜色编码：<span style="color:#64748b;">■</span> 冷门，<span style="color:#3b82f6;">■</span> 普通，<span style="color:#22c55e;">■</span> 热门，<span style="color:#f97316;">■</span> 爆款。
-                                <span class="fig-note">* 受 Fig. 1(b)(c) 筛选影响。</span>
                             </div>
                         </div>
                         <div class="figure-item size-5">
                             <div class="chart-container" id="popBar"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 1(b)</span> 流行度四分层样本量。冷门(&lt;30)、普通(30–60)、热门(60–80)、爆款(≥80)。
-                                <span class="fig-note">* 点击柱子可筛选，散点图同步更新。</span>
+                                <span class="fig-note">点击柱子可筛选，散点图同步更新。</span>
                             </div>
                         </div>
                         <div class="figure-item size-5">
                             <div class="chart-container" id="genreBar"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 1(c)</span> 主要音乐类别的平均流行度（横向柱状图）。
-                                <span class="fig-note">* 点击类别可筛选，散点图同步更新。</span>
+                                <span class="fig-note">点击类别可筛选，散点图同步更新。悬停可查看完整类别名称。</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- 分析文字 - 普通段落样式 -->
                 <div class="analysis-para">
-                    <span class="analysis-label">▎分析要点</span>
-                    从散点图 <strong>Fig. 1(a)</strong> 可以观察到，高流行度歌曲（爆款）在 Energy 和 Danceability 维度上呈现出明显的聚集趋势，尤其集中在 Energy ∈ [0.6, 0.9] 且 Danceability ∈ [0.5, 0.8] 的"甜区"内。相比之下，冷门歌曲的分布更为分散，说明极端的声学特征（过低或过高的能量感）往往与较低的市场接受度相关。柱状图 <strong>Fig. 1(b)</strong> 显示样本中冷门与普通层级占据了多数，这与现实音乐市场中"长尾分布"的特征一致——真正成为爆款的歌曲仅占极小比例。此外，雷达图 <strong>Fig. 1(d)</strong> 进一步证实，高流行度组在 Energy、Danceability 和 Loudness 维度上均显著高于低流行度组，而在 Acousticness 维度上则呈现相反趋势，表明当代流行音乐倾向于"高能量、高舞动、高响度、低原声"的制作范式。
+                    <span class="analysis-label">分析要点</span>
+                    从散点图 Fig. 1(a) 可以观察到，高流行度歌曲在 Energy 和 Danceability 维度上呈现出明显的聚集趋势，尤其集中在 Energy ∈ [0.6, 0.9] 且 Danceability ∈ [0.5, 0.8] 的区域。相比之下，冷门歌曲的分布更为分散，说明极端的声学特征往往与较低的市场接受度相关。柱状图 Fig. 1(b) 显示样本中冷门与普通层级占据了多数，这与现实音乐市场中"长尾分布"的特征一致——真正成为爆款的歌曲仅占极小比例。平行坐标图 Fig. 1(d) 进一步证实，高流行度组在 Energy、Danceability 和 Loudness 维度上均显著高于低流行度组，而在 Acousticness 维度上则呈现相反趋势，表明当代流行音乐倾向于高能量、高舞动、高响度、低原声的制作范式。
                 </div>
-
-                <!-- 图组 1-2：雷达图 -->
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-12">
-                            <div class="chart-container" id="popRadar" style="min-height: 320px;"></div>
+                            <div class="chart-container" id="popRadar" style="min-height: 400px;"></div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 1(d)</span> 高流行度（热门+爆款，Popularity ≥ 60）与低流行度（冷门+普通，Popularity &lt; 60）歌曲的声学特征雷达图。
-                                <span class="fig-note">* 受 Fig. 1(b)(c) 筛选影响。</span>
+                                <span class="fig-label">Fig. 1(d)</span> 高流行度与低流行度歌曲的声学特征平行坐标图。橙色线条代表高流行度歌曲，灰色线条代表低流行度歌曲。可使用鼠标拖拽进行区域刷选。
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="section-summary">
+                    <span class="summary-label">本节总结</span>
+                    流行歌曲的成功并非随机，而是呈现出清晰的声学规律：高能量、高舞动性、高响度、低原声性是爆款歌曲的共性特征。同时，市场呈现典型的"长尾分布"——极少数歌曲占据绝大多数流量，绝大多数歌曲处于长尾末端。
                 </div>
             </div>
         </section>
@@ -755,63 +758,55 @@
                     <button data-group="ey" onclick="changeEmotionY(event,'danceability')">Danceability</button>
                     <button data-group="ey" onclick="changeEmotionY(event,'valence')">Valence</button>
                     <span class="ctrl-separator"></span>
-                    <span>💡 已选场景:</span>
+                    <span>已选场景:</span>
                     <span class="scene-count" id="sceneCountLabel">全部</span>
                 </div>
             </div>
             <div class="section-body">
                 <div class="intro-text">
-                    <p>本节聚焦于用户创建播放列表的场景分类（学习、放松、派对、运动、悲伤、浪漫等），分析不同场景下音乐选择的声学特征差异。场景标签通过播放列表名称的关键词匹配自动标注。</p>
+                    <p>本节聚焦于用户创建播放列表的场景分类（学习、放松、派对、运动、悲伤、浪漫等），分析不同场景下音乐选择的声学特征差异。场景标签通过播放列表名称的关键词匹配自动标注，数据来源于 Spotify 百万播放列表数据集。</p>
                     <ul>
-                        <li><strong>图 2(a)</strong>：各场景歌曲数量分布，<strong>点击柱子可多选</strong>场景，影响 Fig. 2(b)(c)(d)。</li>
-                        <li><strong>图 2(b)</strong>：情绪特征散点图，可通过标题栏按钮自由切换 X/Y 轴维度。<strong>受 Fig. 2(a) 筛选影响</strong>。</li>
-                        <li><strong>图 2(c)</strong>：筛选场景在多维特征上的雷达轮廓。<strong>受 Fig. 2(a) 筛选影响</strong>。</li>
-                        <li><strong>图 2(d)</strong>：爆款与普通歌曲的特征柱状对比。<strong>受 Fig. 2(a) 筛选影响</strong>。</li>
+                        <li><strong>图 2(a)</strong>：各场景歌曲数量分布，点击柱子可多选场景，影响 Fig. 2(b)(c)。</li>
+                        <li><strong>图 2(b)</strong>：情绪特征散点图，可通过标题栏按钮自由切换 X/Y 轴维度。</li>
+                        <li><strong>图 2(c)</strong>：筛选场景在多维特征上的雷达轮廓。</li>
                     </ul>
-                    <p><em>交互提示：点击 Fig. 2(a) 柱子多选场景，Fig. 2(b)(c)(d) 会同步更新。</em></p>
+                    <p>交互提示：点击 Fig. 2(a) 柱子多选场景，Fig. 2(b)(c)会同步更新。</p>
                 </div>
-
-                <!-- 图组 2-1 -->
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-5">
                             <div class="chart-container" id="sceneBar"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 2(a)</span> 各场景歌曲数量分布。橙色表示当前选中场景（支持多选）。
-                                <span class="fig-note">* 点击柱子多选场景，其余图表同步更新。</span>
+                                <span class="fig-note">点击柱子多选场景，其余图表同步更新。</span>
                             </div>
                         </div>
                         <div class="figure-item size-7">
                             <div class="chart-container" id="emotionScatter"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 2(b)</span> 情绪特征散点图。X/Y 轴可通过标题栏按钮自由切换 Valence / Energy / Danceability。
-                                <span class="fig-note">* 受 Fig. 2(a) 筛选影响。</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- 分析文字 - 普通段落样式 -->
                 <div class="analysis-para">
-                    <span class="analysis-label">▎分析要点</span>
-                    不同场景下的音乐选择呈现出<strong>显著的情绪特征分化</strong>：派对场景集中在高 Energy–高 Danceability 象限，
-                    悲伤场景则偏向低 Valence 区域，而学习场景倾向于中等能量、较低舞动性的曲目。
-                    这种分化验证了<em>音乐声学特征与用户使用场景之间存在稳健的映射关系</em>。
-                    通过切换 X/Y 轴维度（如将 Y 轴切换为 Danceability），可以进一步探索
-                    Valence–Danceability 或 Energy–Danceability 的二维分布模式。
+                    <span class="analysis-label">分析要点</span>
+                    不同场景下的音乐选择呈现出显著的情绪特征分化：派对场景集中在高 Energy–高 Danceability 象限，悲伤场景则偏向低 Valence 区域，而学习场景倾向于中等能量、较低舞动性的曲目。这种分化验证了音乐声学特征与用户使用场景之间存在稳健的映射关系。通过切换 X/Y 轴维度，可以进一步探索 Valence–Danceability 或 Energy–Danceability 的二维分布模式。
                 </div>
-
-                <!-- 图组 2-2 -->
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-6">
                             <div class="chart-container" id="sceneRadar"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 2(c)</span> 当前场景的音频特征雷达图（Energy、Danceability、Valence、Acousticness）。
-                                <span class="fig-note">* 随 Fig. 2(a) 的场景筛选动态更新。</span>
+                                <span class="fig-note">随 Fig. 2(a) 的场景筛选动态更新。</span>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="section-summary">
+                    <span class="summary-label">本节总结</span>
+                    用户在不同场景下的音乐选择呈现出功能性的情绪分化：派对追求高能量与高舞动性，学习偏好中等能量与中性情绪，悲伤场景选择低情绪效价。这种分化揭示了音乐不仅是艺术表达，更是用户调节情绪、匹配场景的实用工具。
                 </div>
             </div>
         </section>
@@ -841,23 +836,21 @@
             </div>
             <div class="section-body">
                 <div class="intro-text">
-                    <p>采用 Billboard 历史榜单数据，从时间维度分析流行歌曲的生命周期特征与榜单生态变迁。核心关注：<em>歌曲在榜时间是否在缩短？新歌进入榜单是否变得越来越困难？</em></p>
+                    <p>采用 Billboard 历史榜单数据（1960–2021），从时间维度分析流行歌曲的生命周期特征与榜单生态变迁。核心关注：歌曲在榜时间是否在缩短？新歌进入榜单是否变得越来越困难？</p>
                     <ul>
-                        <li><strong>图 3(a)</strong>：年度平均在榜周数与爆款比例的双轴趋势。<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(b)</strong>：各年份在榜周数山脊图，<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(c)</strong>：最高排名与在榜周数的散点关系。<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(d)</strong>：生命周期分布热力图。<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(e)</strong>：爆款比例年度变化。<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(f)</strong>：新进榜歌曲趋势分析。<strong>受顶部年份区间控件筛选</strong>。</li>
-                        <li><strong>图 3(g)</strong>：代表性歌曲排行榜生命周期曲线，展示在榜歌曲的排名变化轨迹。点击图例可筛选显示特定歌曲。</li>
+                        <li><strong>图 3(a)</strong>：年度平均在榜周数与爆款比例的双轴趋势。</li>
+                        <li><strong>图 3(b)</strong>：各年份在榜周数山脊图。</li>
+                        <li><strong>图 3(c)</strong>：生命周期分布热力图。</li>
+                        <li><strong>图 3(d)</strong>：最高排名与在榜周数的散点关系。</li>
+                        <li><strong>图 3(e)</strong>：新进榜歌曲趋势分析。</li>
+                        <li><strong>图 3(f)</strong>：代表性歌曲排行榜生命周期曲线。</li>
+                        <li><strong>图 3(g)</strong>：月度新进榜歌曲热力图。</li>
                     </ul>
-                    <p><em>交互提示：拖动顶部年份区间滑块可筛选时间范围，所有图表会同步更新。</em></p>
+                    <p>交互提示：拖动顶部年份区间滑块可筛选时间范围，所有图表会同步更新。点击图例可筛选特定歌曲。</p>
                 </div>
-
-                <!-- 图组 3-1：趋势图 -->
                 <div class="figure-group">
                     <div class="figure-row">
-                        <div class="figure-item size-7">
+                        <div class="figure-item size-12">
                             <div class="chart-container" id="billTrend"></div>
                             <div class="figure-caption">
                                 <span class="fig-label">Fig. 3(a)</span> 流行趋势双轴图。蓝色实线（左轴）：年度平均在榜周数；橙色虚线（右轴）：爆款比例（在榜≥20周）。
@@ -865,20 +858,13 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- 分析文字 - 普通段落样式 -->
                 <div class="analysis-para">
-                    <span class="analysis-label">▎分析要点</span>
-                    从 <strong>Fig. 3(a)</strong> 可以看出，<em>20世纪60–70年代的平均在榜周数显著高于21世纪</em>，
-                    这与音乐消费模式从实体唱片向流媒体的转型密切相关。爆款比例（在榜≥20周的歌曲占比）
-                    自2000年以来持续走低，表明<strong>歌曲的生命周期正在缩短</strong>，榜单更新速度加快。
-                    然而，2015年之后平均在榜周数出现了小幅回升，可能与流媒体平台的推荐算法有关。
+                    <span class="analysis-label">分析要点</span>
+                    从 Fig. 3(a) 可以看出，20世纪90年代到2000年代初的平均在榜周数达到峰值，此后持续下降。爆款比例自2000年以来持续走低，表明歌曲的生命周期正在缩短，榜单更新速度加快。然而，2010年代初平均在榜周数出现了小幅回升，可能与流媒体平台的推荐算法有关。
                 </div>
-
-                <!-- 图组 3-2：山脊图 -->
                 <div class="figure-group">
                     <div class="figure-row">
-                        <div class="figure-item size-12">
+                        <div class="figure-item size-6">
                             <div class="chart-container" id="billBox" style="min-height: 380px;"></div>
                             <div class="small-chart-controls">
                                 <div class="control-label">山脊图年份</div>
@@ -886,48 +872,35 @@
                                 <span id="ridgeYearLabel">2021</span>
                             </div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(b)</span> 当前选中年份的在榜周数分布山脊图。横轴为在榜周数，纵轴为歌曲数量，曲线下面积表示该年份歌曲在榜时长的分布密度。
-                                <span class="fig-note">* 橙色虚线标记第一四分位数、中位数和第三四分位数，橙色圆点标记最大在榜周数。</span>
+                                <span class="fig-label">Fig. 3(b)</span> 当前选中年份的在榜周数分布山脊图。
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- 图组 3-3：散点 + 热力 + 爆款 -->
-                <div class="figure-group">
-                    <div class="figure-row">
-                        <div class="figure-item size-4">
-                            <div class="chart-container" id="billLife"></div>
-                            <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(c)</span> Peak Position vs 在榜周数散点图。
-                            </div>
-                        </div>
-                        <div class="figure-item size-4">
+                        <div class="figure-item size-6">
                             <div class="chart-container" id="billHeat"></div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(d)</span> 生命周期分布热力图。颜色深度 = 该在榜区间歌曲数。
-                                <span class="fig-note">* 底部色条可交互调整。</span>
-                            </div>
-                        </div>
-                        <div class="figure-item size-4">
-                            <div class="chart-container" id="billHit"></div>
-                            <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(e)</span> 爆款比例年度变化（在榜≥20周）。
+                                <span class="fig-label">Fig. 3(c)</span> 生命周期分布热力图。颜色深度代表该在榜区间的歌曲数量。
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- 分析文字 - 普通段落样式 -->
                 <div class="analysis-para">
-                    <span class="analysis-label">▎分析要点</span>
-                    <strong>Fig. 3(c)</strong> 揭示了最高排名与在榜周数之间的<em>非线性关系</em>：排名前10的歌曲
-                    在榜时间差异极大，既有"一闪而过"的短命热门，也有长期霸榜的经典之作。
-                    热力图 <strong>Fig. 3(d)</strong> 则从宏观视角展示了各年份在榜时长的分布变迁——
-                    20世纪60–70年代的歌曲集中在较长在榜区间（15–25周），而21世纪后分布明显向左偏移。
+                    <span class="analysis-label">分析要点</span>
+                    Fig. 3(b) 和 Fig. 3(c) 共同揭示了在榜歌曲的生命周期分布变迁。20世纪60–70年代的歌曲集中在较长在榜区间（15–25周），而21世纪后分布集中于较短区间（0-10周）。值得注意的是，21世纪最长在榜周数显著高于20世纪峰值，这并非因为歌曲更受欢迎，而是由于流媒体时代统计规则的变化——流媒体播放量的持续累积使得歌曲可以长时间留在榜上。同时，短视频平台的兴起让大量歌曲获得短期爆发式热度，创作门槛的降低也导致歌曲发行量激增，这解释了"在榜一周"歌曲大幅增加的现象。
                 </div>
-
-                <!-- 图组 3-4：新进榜趋势 -->
+                <div class="figure-group">
+                    <div class="figure-row">
+                        <div class="figure-item size-6">
+                            <div class="chart-container" id="billLife"></div>
+                            <div class="figure-caption">
+                                <span class="fig-label">Fig. 3(d)</span> 最高排名 vs 在榜周数散点图。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="analysis-para">
+                    <span class="analysis-label">分析要点</span>
+                    从 Fig. 3(d) 可以看出，初进榜排名前10的歌曲在榜时间差异极大，既有短期热门，也有长期霸榜的经典之作。排名与在榜时间之间呈现非线性关系——登顶并非长寿的保证。
+                </div>
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-12">
@@ -940,39 +913,119 @@
                                 <button class="rank-pill" data-filter="40plus" onclick="setEntryRankFilter('40plus')">首周 40+</button>
                             </div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(f)</span> 新进榜趋势分析。蓝色面积（左轴）：年新进榜歌曲数；绿色虚线（右轴）：新歌进入率（新进榜数/总在榜数）。
-                                <span class="fig-note">* 进入率自 2010 年代起持续走低，表明榜单固化趋势明显，新歌上榜难度加大。</span>
+                                <span class="fig-label">Fig. 3(e)</span> 新进榜趋势分析。蓝色面积（左轴）：年新进榜歌曲数；绿色虚线（右轴）：新歌进入率。
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- 图组 3-5：歌曲生命周期折线图 -->
+                <div class="figure-group">
+                    <div class="figure-row">
+                        <div class="figure-item size-12">
+                            <div class="chart-container" id="monthlyCalendarChart" style="min-height: 500px;"></div>
+                            <div class="figure-caption">
+                                <span class="fig-label">Fig. 3(f)</span> 月度新进榜歌曲热力图。横轴为月份，纵轴为年份，每个小格子代表一个月份，颜色越深表示该月新进榜歌曲越多。右侧滑块可滚动查看不同年份区间。
+                                <span class="fig-note">可直观看到新歌发布的季节性规律，如年底圣诞季新歌数量明显增多。</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="analysis-para">
+                    <span class="analysis-label">分析要点</span>
+                    进入率自2010年代起持续呈上升趋势，表明新歌更容易上榜了。上世纪歌曲初上榜时排名普遍较低，极少比例进入Top40，而二十一世纪后的歌曲则普遍排名较高，进入Top40、Top20、Top10的比例显著提高。这一转变与统计规则和听众收听方式有关：上世纪歌曲需要电台播放积累曝光，依靠唱片店销售，存在销量统计滞后；而二十一世纪后的歌曲更多依赖于流媒体平台的播放量，获取方便且即时增长，社交媒体宣传也帮助歌曲在发布前后获得高曝光，从而在进榜时获得较高的排名。
+                </div>
                 <div class="figure-group">
                     <div class="figure-row">
                         <div class="figure-item size-12">
                             <div class="chart-container" id="songLifecycleChart" style="min-height: 500px;"></div>
                             <div class="figure-caption">
-                                <span class="fig-label">Fig. 3(g)</span> 代表性歌曲 Billboard 排行榜生命周期。横轴为时间，纵轴为排名（1-100，倒置），每条曲线代表一首歌在榜期间的排名变化。
-                                <span class="fig-note">* 鼠标悬停可查看歌曲信息，排名越靠上表示成绩越好。点击图例可筛选显示特定歌曲。</span>
+                                <span class="fig-label">Fig. 3(g)</span> 代表性歌曲 Billboard 排行榜生命周期。横轴为时间，纵轴为排名（1-100，倒置），每条曲线代表一首歌在榜期间的排名变化。圆圈数字标记该歌曲的第几次上榜周期。
+                                <span class="fig-note">鼠标悬停可查看歌曲信息，排名越靠上表示成绩越好。点击图例可筛选显示特定歌曲。</span>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="analysis-para">
+                    <span class="analysis-label">分析要点</span>
+                    Fig. 3(f) 收集了几首知名歌曲在 Billboard 上的完整生命周期，展示了它们在榜期间的排名变化。除了可以印证上文提到的上世纪歌曲在排行榜上上升速度较慢、起点较低、在榜时间显著少于流媒体时代歌曲之外，还可以观察到一些有趣的现象：例如 Mariah Carey 的圣诞名曲每年圣诞季都会周期性上榜，因为这首歌曲已经成为了圣诞文化的一部分，体现了音乐与文化节日的深度绑定。
+                </div>
+
+                <div class="section-summary">
+                    <span class="summary-label">本节总结</span>
+                    Billboard 榜单生态在流媒体时代发生了根本性变迁：（1）榜单流动性增强——新歌更容易进榜，但生命周期整体缩短；（2）统计规则重塑衡量标准——流媒体的持续累积使得少数歌曲获得超长在榜时间；（3）首周排名普遍提升——社交预热与流媒体即时统计让高开成为常态；（4）文化周期性回归——部分歌曲与节日深度绑定，形成年度复发现象。
+                </div>
             </div>
         </section>
-
+        <div class="conclusion-box">
+            <h3>综合结论：流媒体时代 vs 实体唱片时代的范式转移</h3>
+            <p>通过上述三个维度的分析，本研究揭示了音乐产业从实体唱片时代向流媒体时代转型过程中发生的系统性变迁：</p>
+            <p><span class="highlight">制作范式层面：</span>爆款歌曲呈现出明确的声学规律——高能量、高舞动性、高响度、低原声性。这一模式在流媒体时代被进一步强化，成为制作人追逐的目标范式。</p>
+            <p><span class="highlight">消费场景层面：</span>用户的音乐选择呈现功能性的情绪分化，不同场景对应不同的声学特征组合，音乐成为用户调节情绪、匹配生活场景的实用工具。</p>
+            <p><span class="highlight">榜单生态层面：</span>流媒体时代的到来带来了榜单统计规则的根本性变革。首周排名系统性提升、整体生命周期缩短，但极少数歌曲获得超长在榜时间。这一极化趋势——大多数歌曲更短命，少数歌曲异常长寿——是流媒体时代最显著的特征。</p>
+            <p><span class="highlight">文化层面：</span>部分歌曲与特定节日或文化事件深度绑定，形成年度周期性回归现象，拓展了传统生命周期概念的边界。</p>
+            <p>综上，音乐流行趋势的演变既是技术进步的结果，也是消费行为变迁的映射。交互式可视化系统为探索这一复杂现象提供了直观、灵活的分析工具。</p>
+        </div>
     </main>
-
-    <!-- ==================== 页脚 ==================== -->
     <footer class="paper-footer">
+        <div class="media-timeline" id="mediaTimeline">
+    <div class="media-timeline-progress" id="timelineProgress">
+        <div class="progress-indicator" id="progressIndicator"></div>
+        
+        <div class="media-node" data-pos="0">
+            <div class="media-dot"></div>
+            <span class="media-label">蜡筒留声机 1877</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="12">
+            <div class="media-dot"></div>
+            <span class="media-label">78转黑胶 1900</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="25">
+            <div class="media-dot"></div>
+            <span class="media-label">无线电广播 1920</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="37">
+            <div class="media-dot"></div>
+            <span class="media-label">33转LP黑胶 1948</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="50">
+            <div class="media-dot"></div>
+            <span class="media-label">录音磁带 1963</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="62">
+            <div class="media-dot"></div>
+            <span class="media-label">随身听 1979</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="75">
+            <div class="media-dot"></div>
+            <span class="media-label">CD光盘 1982</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="87">
+            <div class="media-dot"></div>
+            <span class="media-label">MP3数字下载 1995</span>
+        </div>
+        <div class="media-line"></div>
+        
+        <div class="media-node" data-pos="100">
+            <div class="media-dot"></div>
+            <span class="media-label">流媒体 2008</span>
+        </div>
+    </div>
+</div>
         <div class="footnote-title">Data Sources &amp; Notes</div>
-        <p>
-            <strong>Spotify 音频特征数据：</strong>来源于 Spotify Web API，包含 danceability, energy, valence, acousticness, popularity 等字段。
-            <strong>Billboard 榜单数据：</strong>来源于 Billboard Hot 100 历史榜单（1960–2021）。
-            <strong>播放列表数据：</strong>来源于 Spotify Million Playlist Dataset (MPD)，场景标签通过关键词匹配自动标注。
-            本系统为学术研究目的的交互式可视化原型。图表库：Apache ECharts 5。
-        </p>
+        <p><strong>Spotify 音频特征数据：</strong>来源于 Spotify Web API，包含 danceability, energy, valence, acousticness, popularity 等字段。<strong>Billboard 榜单数据：</strong>来源于 Billboard Hot 100 历史榜单（1960–2021）。<strong>播放列表数据：</strong>来源于 Spotify Million Playlist Dataset (MPD)，场景标签通过关键词匹配自动标注。本系统为学术研究目的的交互式可视化原型。图表库：Apache ECharts 5。</p>
     </footer>
 
     <script>
@@ -1006,6 +1059,9 @@
         let songLifecycleData = [];
         let songLifecycleChart = null;
 
+        let monthlyCalendarChart = null; 
+        let monthlyData = [];
+
         // ================= 图表实例引用 =================
         let sceneBarChart, emotionChart, sceneRadarChart, featureCompareChart;
         let popScatterChart, popBarChart, genreBarChart, popRadarChart;
@@ -1015,68 +1071,88 @@
         window.onload = loadData;
 
         // ================= 数据加载 =================
-        async function loadData() {
-            try {
-                let resBill = await fetch('data/billboard_small.json');
-                billboard = await resBill.json();
-                processBillboard();
-            } catch (e) { console.warn('Billboard 数据加载失败:', e); }
+async function loadData() {
+    try {
+        let resBill = await fetch('data/billboard_small.json');
+        billboard = await resBill.json();
+        processBillboard();
+        console.log('✅ Billboard 数据加载成功');
+    } catch (e) { 
+        console.warn('Billboard 数据加载失败:', e); 
+    }
 
-            try {
-                let resNew = await fetch('data/billboard_stat.json');
-                let json = await resNew.json();
-                newSongData = json.year || [];
-            } catch (e) { console.warn('Billboard 统计数据加载失败:', e); }
-
-                try {
-                let resSongs = await fetch('data/billboard_songs_journey.json');
-                let songsData = await resSongs.json();
-                songLifecycleData = songsData.songs || [];
-                console.log(`✅ 加载歌曲生命周期数据: ${songLifecycleData.length} 首歌曲`);
-            } catch (e) { 
-                console.warn('歌曲生命周期数据加载失败:', e);
-                songLifecycleData = [];
-            }
-
-            try {
-                let resSpotify = await fetch('data/spotify_sample.json');
-                let jsonSpotify = await resSpotify.json();
-                spotifyData = jsonSpotify
-                    .map(d => ({
-                        genre: d.genre || 'unknown',
-                        track_name: d.track_name || '',
-                        popularity: +d.popularity,
-                        danceability: +d.danceability,
-                        energy: +d.energy,
-                        valence: +d.valence,
-                        level: getPopLevel(+d.popularity),
-                        release_year: d.release_year,
-                        duration_sec: +d.duration_sec,
-                        speechiness: +d.speechiness,
-                        acousticness: +d.acousticness,
-                        instrumentalness: +d.instrumentalness,
-                        instrumental_category: d.instrumental_category,
-                        liveness: +d.liveness,
-                        key_name: d.key_name,
-                        key_simple: d.key_simple,
-                        mode_name: d.mode_name,
-                        is_major: d.is_major,
-                        tempo: +d.tempo,
-                        tempo_category: d.tempo_category,
-                        loudness: +d.loudness,
-                        time_signature: d.time_signature,
-                        time_signature_label: d.time_signature_label
-                    }))
-                    .filter(d => !isNaN(d.popularity) && !isNaN(d.energy) && !isNaN(d.danceability));
-            } catch (e) { console.warn('Spotify 数据加载失败:', e); }
-
-            await loadSceneData();
-            processData();
-            drawAll();
+    // 加载 Billboard 统计数据（年度+月度）
+    try {
+        let resStat = await fetch('data/billboard_stat.json');
+        if (!resStat.ok) {
+            throw new Error(`HTTP ${resStat.status}: ${resStat.statusText}`);
         }
+        let statData = await resStat.json();
+        newSongData = statData.year || [];
+        monthlyData = statData.month || [];
+        console.log(`✅ 加载年度数据: ${newSongData.length} 年`);
+        console.log(`✅ 加载月度数据: ${monthlyData.length} 个月`);
+        if (monthlyData.length > 0) {
+            console.log('月度数据示例:', monthlyData[0]);
+        }
+    } catch (e) { 
+        console.warn('Billboard 统计数据加载失败:', e);
+        newSongData = [];
+        monthlyData = [];
+    }
+
+    try {
+        let resSongs = await fetch('data/billboard_songs_journey.json');
+        let songsData = await resSongs.json();
+        songLifecycleData = songsData.songs || [];
+        console.log(`✅ 加载歌曲生命周期数据: ${songLifecycleData.length} 个周期`);
+    } catch (e) { 
+        console.warn('歌曲生命周期数据加载失败:', e);
+        songLifecycleData = [];
+    }
+
+    try {
+        let resSpotify = await fetch('data/spotify_sample.json');
+        let jsonSpotify = await resSpotify.json();
+        spotifyData = jsonSpotify
+            .map(d => ({
+                genre: d.genre || 'unknown',
+                track_name: d.track_name || '',
+                popularity: +d.popularity,
+                danceability: +d.danceability,
+                energy: +d.energy,
+                valence: +d.valence,
+                level: getPopLevel(+d.popularity),
+                release_year: d.release_year,
+                duration_sec: +d.duration_sec,
+                speechiness: +d.speechiness,
+                acousticness: +d.acousticness,
+                instrumentalness: +d.instrumentalness,
+                instrumental_category: d.instrumental_category,
+                liveness: +d.liveness,
+                key_name: d.key_name,
+                key_simple: d.key_simple,
+                mode_name: d.mode_name,
+                is_major: d.is_major,
+                tempo: +d.tempo,
+                tempo_category: d.tempo_category,
+                loudness: +d.loudness,
+                time_signature: d.time_signature,
+                time_signature_label: d.time_signature_label
+            }))
+            .filter(d => !isNaN(d.popularity) && !isNaN(d.energy) && !isNaN(d.danceability));
+        console.log(`✅ 加载 Spotify 数据: ${spotifyData.length} 条`);
+    } catch (e) { 
+        console.warn('Spotify 数据加载失败:', e);
+    }
+
+    await loadSceneData();
+    processData();
+    drawAll();
+}
 
         async function loadSceneData() {
-            let playlistFiles = ['data/mpd.filtered0-999.json', 'data/mpd.filtered1000-1999.json'];
+            let playlistFiles =  ['data/mpd.filtered0-999.json', 'data/mpd.filtered1000-1999.json'];
             playlists = [];
             for (let file of playlistFiles) {
                 try {
@@ -1180,7 +1256,6 @@
             drawSceneBar();
             drawEmotion();
             drawSceneRadar();
-            drawFeatureCompare();
             drawAllBillboard();
             drawEraTrend();
             drawKeyDonut();
@@ -1193,10 +1268,10 @@
             drawBillTrend();
             drawBillBox();
             drawBillLife();
-            drawBillHit();
             drawBillHeat();
             drawNewSongTrend();
             drawSongLifecycle();
+            drawMonthlyCalendar();
         }
 
         function updateSceneCountLabel() {
@@ -1218,17 +1293,14 @@
             selectedScenes = [];
             filteredData = [...globalData];
             
-            // 重置为默认预设：能量 vs 流行度
             currentMetric = 'energy';
             selectedYAxis = 'popularity';
             
-            // 更新预设按钮状态
             document.querySelectorAll('.preset-buttons button').forEach(btn => {
                 btn.classList.remove('active');
                 if (btn.dataset.preset === 'energy_pop') btn.classList.add('active');
             });
             
-            // 重置下拉菜单的值
             const customX = document.getElementById('customXAxis');
             const customY = document.getElementById('customYAxis');
             if (customX) customX.value = 'energy';
@@ -1237,16 +1309,13 @@
             emotionXAxis = 'valence';
             emotionYAxis = 'energy';
 
-            // 重置 Section 2 X轴按钮
             document.querySelectorAll('.section-controls button[data-group="ex"]').forEach((b, i) => {
                 b.classList.toggle('active', b.textContent.includes('Valence'));
             });
-            // 重置 Section 2 Y轴按钮
             document.querySelectorAll('.section-controls button[data-group="ey"]').forEach((b, i) => {
                 b.classList.toggle('active', b.textContent.includes('Energy'));
             });
 
-            // 重置 Billboard 年份滑块
             yearRange.start = 1960;
             yearRange.end = 2021;
             const yearStartInput = document.getElementById('yearStart');
@@ -1256,13 +1325,11 @@
             document.getElementById('yearStartLabel').textContent = '1960';
             document.getElementById('yearEndLabel').textContent = '2021';
 
-            // 重置山脊图年份滑块
             selectedRidgeYear = 2021;
             const ridgeInput = document.getElementById('ridgeYear');
             if (ridgeInput) ridgeInput.value = 2021;
             document.getElementById('ridgeYearLabel').textContent = '2021';
 
-            // 重置首周排名按钮
             selectedEntryRank = 'all';
             document.querySelectorAll('#entryRankButtons .rank-pill').forEach(p => {
                 p.classList.toggle('active', p.dataset.filter === 'all');
@@ -1277,13 +1344,11 @@
             currentMetric = xMetric;
             selectedYAxis = yMetric;
             
-            // 更新预设按钮样式
             document.querySelectorAll('.preset-buttons button').forEach(btn => {
                 btn.classList.remove('active');
             });
             event.currentTarget.classList.add('active');
             
-            // 同步下拉菜单的值
             const customX = document.getElementById('customXAxis');
             const customY = document.getElementById('customYAxis');
             if (customX) customX.value = xMetric;
@@ -1300,7 +1365,6 @@
             currentMetric = customX.value;
             selectedYAxis = customY.value;
             
-            // 清除预设按钮的激活状态
             document.querySelectorAll('.preset-buttons button').forEach(btn => {
                 btn.classList.remove('active');
             });
@@ -1391,135 +1455,115 @@
             billboardAgg = Object.values(map);
         }
 
-        function generateSongLifecycleData(billboardData) {
-            const songMap = {};
-            
-            billboardData.forEach(d => {
-                if (!songMap[d.song_id]) {
-                    const [song, performer] = parseSongId(d.song_id);
-                    songMap[d.song_id] = {
-                        song: song,
-                        performer: performer,
-                        peak: d.peak_position,
-                        entries: []
-                    };
-                }
-                songMap[d.song_id].entries.push({
-                    year: d.year,
-                    week: d.time_on_chart,
-                    position: d.chart_position
-                });
-            });
-            
-            const result = [];
-            
-            Object.values(songMap).forEach(song => {
-                if (song.entries.length < 5) return;
-                
-                song.entries.sort((a, b) => {
-                    if (a.year !== b.year) return a.year - b.year;
-                    return a.week - b.week;
-                });
-                
-                const segments = [];
-                let currentSegment = [];
-                
-                song.entries.forEach((entry, index) => {
-                    if (index === 0) {
-                        currentSegment.push(entry);
-                    } else {
-                        const prevEntry = song.entries[index - 1];
-                        const weekDiff = entry.week - prevEntry.week;
-                        const yearDiff = entry.year - prevEntry.year;
-                        
-                        const totalWeeksDiff = yearDiff * 52 + weekDiff;
-                        
-                        if (totalWeeksDiff <= 2) {
-                            currentSegment.push(entry);
-                        } else {
-                            segments.push([...currentSegment]);
-                            currentSegment = [entry];
+        // ================= Billboard 图表绘制 =================
+function drawBillTrend() {
+    // 先设置容器高度
+    const chartDom = document.getElementById('billTrend');
+    if (chartDom) chartDom.style.height = '500px';
+    
+    if (!billTrendChart) billTrendChart = echarts.init(chartDom);
+    let data = filterByYear(billboardAgg);
+    let map = {};
+    data.forEach(d => {
+        if (!map[d.year]) map[d.year] = { weeks: [], hit: 0, total: 0 };
+        map[d.year].weeks.push(d.weeks);
+        map[d.year].total++;
+        if (d.weeks >= 20) map[d.year].hit++;
+    });
+    let years = Object.keys(map).sort();
+    let avgWeeks = years.map(y => map[y].weeks.reduce((s, v) => s + v, 0) / map[y].weeks.length);
+    let hitRatio = years.map(y => map[y].hit / map[y].total);
+    
+    // 规则变化标注数据（使用更浅的颜色）
+    const ruleMarks = [
+        { year: '1991', name: '电子化数据追踪', desc: '引入SoundScan电子销量监控', color: '#fbbf24', lineType: 'dashed' },      // 浅琥珀色
+        { year: '1998', name: '取消单曲发行门槛', desc: '仅凭电台播放即可上榜', color: '#fbbf24', lineType: 'dashed' },      // 浅琥珀色
+        { year: '2005', name: '数字下载纳入统计', desc: 'iTunes等数字销量计入榜单', color: '#fbbf24', lineType: 'dashed' },  // 浅琥珀色
+        { year: '2013', name: '流媒体纳入统计', desc: 'Spotify/YouTube播放计入榜单', color: '#fca5a5', lineType: 'solid' },   // 浅红色
+        { year: '2018', name: '付费/免费流媒体分层', desc: '付费播放权重高于免费播放', color: '#fbbf24', lineType: 'dashed' }, // 浅琥珀色
+        { year: '2026', name: '收缩流媒体权重', desc: '调整付费/免费折算比例', color: '#fcd34d', lineType: 'dotted' }          // 更浅的黄色
+    ];
+    
+    // 筛选在年份范围内的标注
+    const visibleMarks = ruleMarks.filter(m => {
+        const yearNum = parseInt(m.year);
+        return yearNum >= yearRange.start && yearNum <= yearRange.end;
+    });
+    
+    billTrendChart.setOption({
+        tooltip: { 
+            trigger: 'axis',
+            axisPointer: { type: 'shadow' }
+        },
+        legend: { 
+            data: ['平均在榜周数', '爆款比例'], 
+            bottom: 0, 
+            textStyle: { fontSize: 11 } 
+        },
+        xAxis: { 
+            type: 'category', 
+            data: years, 
+            axisLabel: { fontSize: 10, rotate: 45, interval: 5 } 
+        },
+        yAxis: [
+            { name: '周数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
+            { name: '比例', max: 1, nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } }
+        ],
+        grid: { left: 55, right: 55, top: 80, bottom: 60, containLabel: true },
+        series: [
+            { 
+                name: '平均在榜周数', 
+                type: 'line', 
+                smooth: true, 
+                data: avgWeeks, 
+                itemStyle: { color: '#3b82f6' }, 
+                lineStyle: { width: 2 },
+                markLine: {
+                    silent: false,
+                    symbol: 'none',
+                    data: visibleMarks.map(m => ({
+                        xAxis: m.year,
+                        name: m.name,
+                        label: {
+                            show: true,
+                            formatter: m.name,
+                            position: 'end',
+                            offset: [0, -15],
+                            fontSize: 9,
+                            fontWeight: 'bold',
+                            color: m.color,
+                            backgroundColor: 'rgba(255,255,255,0.9)',
+                            padding: [2, 6, 2, 6],
+                            borderRadius: 4,
+                            borderColor: m.color,
+                            borderWidth: 1
+                        },
+                        lineStyle: { color: m.color, width: 1.5, type: m.lineType }
+                    })),
+                    tooltip: {
+                        show: true,
+                        formatter: function(params) {
+                            const mark = visibleMarks.find(m => m.year === params.data.xAxis);
+                            if (mark) {
+                                return `<strong>${mark.year}年 · ${mark.name}</strong><br/>${mark.desc}`;
+                            }
+                            return params.name;
                         }
                     }
-                });
-                
-                if (currentSegment.length > 0) {
-                    segments.push(currentSegment);
                 }
-                
-                segments.forEach((segment, segIndex) => {
-                    const dates = [];
-                    const positions = [];
-                    
-                    segment.forEach((entry) => {
-                        const date = new Date(entry.year, 0, 1 + entry.week * 7);
-                        dates.push(formatDate(date));
-                        positions.push(entry.position);
-                    });
-                    
-                    result.push({
-                        song: song.song,
-                        performer: song.performer,
-                        year: segment[0].year,
-                        peak: song.peak,
-                        time_on_chart: song.entries.length,
-                        segmentIndex: segIndex,
-                        totalSegments: segments.length,
-                        dates: dates,
-                        positions: positions
-                    });
-                });
-            });
-            
-            return result.sort((a, b) => b.time_on_chart - a.time_on_chart).slice(0, 15);
-        }
-
-        function parseSongId(songId) {
-            const match = songId.match(/^"?([^"]+)"?\s+(.+)$/);
-            if (match) {
-                return [match[1].trim(), match[2].trim()];
+            },
+            { 
+                name: '爆款比例', 
+                type: 'line', 
+                yAxisIndex: 1, 
+                smooth: true, 
+                data: hitRatio, 
+                itemStyle: { color: '#f97316' }, 
+                lineStyle: { width: 2, type: 'dashed' } 
             }
-            return [songId, 'Unknown'];
-        }
-
-        function formatDate(date) {
-            const year = date.getFullYear();
-            const month = String(date.getMonth() + 1).padStart(2, '0');
-            const day = String(date.getDate()).padStart(2, '0');
-            return `${year}-${month}-${day}`;
-        }
-
-        // ================= Billboard 图表绘制 =================
-        function drawBillTrend() {
-            if (!billTrendChart) billTrendChart = echarts.init(document.getElementById('billTrend'));
-            let data = filterByYear(billboardAgg);
-            let map = {};
-            data.forEach(d => {
-                if (!map[d.year]) map[d.year] = { weeks: [], hit: 0, total: 0 };
-                map[d.year].weeks.push(d.weeks);
-                map[d.year].total++;
-                if (d.weeks >= 20) map[d.year].hit++;
-            });
-            let years = Object.keys(map).sort();
-            let avgWeeks = years.map(y => map[y].weeks.reduce((s, v) => s + v, 0) / map[y].weeks.length);
-            let hitRatio = years.map(y => map[y].hit / map[y].total);
-            billTrendChart.setOption({
-                tooltip: { trigger: 'axis' },
-                legend: { data: ['平均在榜周数', '爆款比例'], bottom: 0, textStyle: { fontSize: 11 } },
-                xAxis: { type: 'category', data: years, axisLabel: { fontSize: 10 } },
-                yAxis: [
-                    { name: '周数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                    { name: '比例', max: 1, nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } }
-                ],
-                grid: { left: 50, right: 50, top: 20, bottom: 40 },
-                series: [
-                    { name: '平均在榜周数', type: 'line', smooth: true, data: avgWeeks, itemStyle: { color: '#3b82f6' },
-                        lineStyle: { width: 2 } },
-                    { name: '爆款比例', type: 'line', yAxisIndex: 1, smooth: true, data: hitRatio,
-                        itemStyle: { color: '#f97316' }, lineStyle: { width: 2, type: 'dashed' } }
-                ]
-            });
-        }
+        ]
+    });
+}
 
         function drawBillBox() {
             if (!billBoxChart) billBoxChart = echarts.init(document.getElementById('billBox'));
@@ -1632,30 +1676,9 @@
             billLifeChart.setOption({
                 xAxis: { name: '最高排名', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
                 yAxis: { name: '在榜周数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 48, right: 20, top: 20, bottom: 30 },
+                grid: { left: 48, right: 20, top: 50, bottom: 30 },
                 series: [{ type: 'scatter', data: data.map(d => [d.peak, d.weeks]), symbolSize: 4,
                     itemStyle: { color: '#6366f1', opacity: 0.6 } }]
-            });
-        }
-
-        function drawBillHit() {
-            if (!billHitChart) billHitChart = echarts.init(document.getElementById('billHit'));
-            let data = filterByYear(billboardAgg);
-            let map = {};
-            data.forEach(d => {
-                if (!map[d.year]) map[d.year] = { hit: 0, total: 0 };
-                map[d.year].total++;
-                if (d.weeks >= 20) map[d.year].hit++;
-            });
-            let years = Object.keys(map).sort();
-            let ratio = years.map(y => map[y].hit / map[y].total);
-            billHitChart.setOption({
-                xAxis: { type: 'category', data: years, axisLabel: { fontSize: 10 } },
-                yAxis: { name: '比例', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 48, right: 20, top: 20, bottom: 30 },
-                series: [{ type: 'line', smooth: true, data: ratio,
-                    areaStyle: { color: 'rgba(249,115,22,0.12)' }, itemStyle: { color: '#f97316' },
-                    lineStyle: { width: 2 } }]
             });
         }
 
@@ -1671,11 +1694,9 @@
             let years = Object.keys(map).sort();
             let bins = [...new Set(data.map(d => Math.floor(d.weeks / 5) * 5))].sort((a, b) => a - b);
             let dataList = [];
-            years.forEach((y, i) => { bins.forEach((b, j) => { dataList.push([i, j, map[y][b] ||
-                        0
-                    ]); }); });
+            years.forEach((y, i) => { bins.forEach((b, j) => { dataList.push([i, j, map[y][b] || 0]); }); });
             billHeatChart.setOption({
-                xAxis: { type: 'category', data: years, axisLabel: { fontSize: 9 } },
+                xAxis: { type: 'category', data: years, axisLabel: { fontSize: 9, rotate: 45 } },
                 yAxis: { type: 'category', data: bins.map(b => `${b}-${b+5}周`), axisLabel: { fontSize: 9 } },
                 grid: { left: 65, right: 20, top: 20, bottom: 50 },
                 visualMap: { min: 0, max: 400, calculable: true, orient: 'horizontal', bottom: 5,
@@ -1684,66 +1705,325 @@
             });
         }
 
-        function drawNewSongTrend() {
-            if (!billNewSongChart) billNewSongChart = echarts.init(document.getElementById('billNewSong'));
-            if (!Array.isArray(newSongData) || newSongData.length === 0) return;
-            let entryRankFilter = selectedEntryRank;
-            let filtered = newSongData.filter(d => d.year >= yearRange.start && d.year <= yearRange.end);
-            let years = filtered.map(d => d.year);
-            let newSongs, rate, subtitle;
-            switch (entryRankFilter) {
-                case 'all':
-                    newSongs = filtered.map(d => d.new_entries);
-                    rate = filtered.map(d => d.entry_rate);
-                    subtitle = '全部新进榜歌曲';
-                    break;
-                case 'top10':
-                    newSongs = filtered.map(d => d.top10_debut || 0);
-                    rate = filtered.map(d => d.total_entries > 0 ? (d.top10_debut || 0) / d.total_entries : 0);
-                    subtitle = '首周即进入 Top 10 的新歌';
-                    break;
-                case 'top20':
-                    newSongs = filtered.map(d => d.top20_debut || 0);
-                    rate = filtered.map(d => d.total_entries > 0 ? (d.top20_debut || 0) / d.total_entries : 0);
-                    subtitle = '首周即进入 Top 20 的新歌';
-                    break;
-                case 'top40':
-                    newSongs = filtered.map(d => (d.entry_by_rank && d.entry_by_rank.top40) || 0);
-                    rate = filtered.map(d => d.total_entries > 0 ? ((d.entry_by_rank && d.entry_by_rank.top40) || 0) /
-                        d.total_entries : 0);
-                    subtitle = '首周进入 Top 40 的新歌';
-                    break;
-                case '40plus':
-                    newSongs = filtered.map(d => (d.entry_by_rank && d.entry_by_rank['40plus']) || 0);
-                    rate = filtered.map(d => d.total_entries > 0 ? ((d.entry_by_rank && d.entry_by_rank['40plus']) || 0) /
-                        d.total_entries : 0);
-                    subtitle = '首周排名 40 名以外的新歌';
-                    break;
-                default:
-                    newSongs = filtered.map(d => d.new_entries);
-                    rate = filtered.map(d => d.entry_rate);
-                    subtitle = '全部新进榜歌曲';
+function drawNewSongTrend() {
+    if (!billNewSongChart) billNewSongChart = echarts.init(document.getElementById('billNewSong'));
+    if (!Array.isArray(newSongData) || newSongData.length === 0) return;
+    let entryRankFilter = selectedEntryRank;
+    let filtered = newSongData.filter(d => d.year >= yearRange.start && d.year <= yearRange.end);
+    let years = filtered.map(d => d.year);
+    let newSongs, rate, subtitle;
+    switch (entryRankFilter) {
+        case 'all':
+            newSongs = filtered.map(d => d.new_entries);
+            rate = filtered.map(d => d.entry_rate);
+            subtitle = '全部新进榜歌曲';
+            break;
+        case 'top10':
+            newSongs = filtered.map(d => d.top10_debut || 0);
+            rate = filtered.map(d => d.total_entries > 0 ? (d.top10_debut || 0) / d.total_entries : 0);
+            subtitle = '首周即进入 Top 10 的新歌';
+            break;
+        case 'top20':
+            newSongs = filtered.map(d => d.top20_debut || 0);
+            rate = filtered.map(d => d.total_entries > 0 ? (d.top20_debut || 0) / d.total_entries : 0);
+            subtitle = '首周即进入 Top 20 的新歌';
+            break;
+        case 'top40':
+            newSongs = filtered.map(d => (d.entry_by_rank && d.entry_by_rank.top40) || 0);
+            rate = filtered.map(d => d.total_entries > 0 ? ((d.entry_by_rank && d.entry_by_rank.top40) || 0) /
+                d.total_entries : 0);
+            subtitle = '首周进入 Top 40 的新歌';
+            break;
+        case '40plus':
+            newSongs = filtered.map(d => (d.entry_by_rank && d.entry_by_rank['40plus']) || 0);
+            rate = filtered.map(d => d.total_entries > 0 ? ((d.entry_by_rank && d.entry_by_rank['40plus']) || 0) /
+                d.total_entries : 0);
+            subtitle = '首周排名 40 名以外的新歌';
+            break;
+        default:
+            newSongs = filtered.map(d => d.new_entries);
+            rate = filtered.map(d => d.entry_rate);
+            subtitle = '全部新进榜歌曲';
+    }
+    
+    // 规则变化标注数据（浅色）
+    const ruleMarks = [
+        { year: '1991', name: '电子化数据追踪', desc: '引入SoundScan电子销量监控', color: '#fbbf24', lineType: 'dashed' },
+        { year: '1998', name: '取消单曲发行门槛', desc: '仅凭电台播放即可上榜', color: '#fbbf24', lineType: 'dashed' },
+        { year: '2005', name: '数字下载纳入统计', desc: 'iTunes等数字销量计入榜单', color: '#fbbf24', lineType: 'dashed' },
+        { year: '2013', name: '流媒体纳入统计', desc: 'Spotify/YouTube播放计入榜单', color: '#fca5a5', lineType: 'solid' },
+        { year: '2018', name: '付费/免费流媒体分层', desc: '付费播放权重高于免费播放', color: '#fbbf24', lineType: 'dashed' },
+        { year: '2026', name: '收缩流媒体权重', desc: '调整付费/免费折算比例', color: '#fcd34d', lineType: 'dotted' }
+    ];
+    
+    // 筛选在年份范围内的标注
+    const visibleMarks = ruleMarks.filter(m => {
+        const yearNum = parseInt(m.year);
+        return yearNum >= yearRange.start && yearNum <= yearRange.end;
+    });
+    
+    billNewSongChart.setOption({
+        title: { text: subtitle, left: 'center', top: 5, textStyle: { fontSize: 12, color: '#6b7280', fontWeight: 'normal' } },
+        tooltip: { trigger: 'axis' },
+        legend: { data: ['新进榜数量', '进入率'], bottom: 0, textStyle: { fontSize: 11 } },
+        xAxis: { type: 'category', data: years, axisLabel: { fontSize: 10, rotate: 45 } },
+        yAxis: [
+            { name: '歌曲数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
+            { name: '比率', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } }
+        ],
+        grid: { left: 55, right: 55, top: 80, bottom: 50, containLabel: true },
+        series: [
+            { 
+                name: '新进榜数量', 
+                type: 'line', 
+                smooth: true, 
+                data: newSongs,
+                areaStyle: { color: 'rgba(59,130,246,0.12)' }, 
+                itemStyle: { color: '#3b82f6' },
+                lineStyle: { width: 2 },
+                markLine: {
+                    silent: false,
+                    symbol: 'none',
+                    data: visibleMarks.map(m => ({
+                        xAxis: m.year,
+                        name: m.name,
+                        label: {
+                            show: true,
+                            formatter: m.name,
+                            position: 'end',
+                            offset: [0, -15],
+                            fontSize: 9,
+                            fontWeight: 'bold',
+                            color: m.color,
+                            backgroundColor: 'rgba(255,255,255,0.9)',
+                            padding: [2, 6, 2, 6],
+                            borderRadius: 4,
+                            borderColor: m.color,
+                            borderWidth: 1
+                        },
+                        lineStyle: { color: m.color, width: 1.5, type: m.lineType }
+                    })),
+                    tooltip: {
+                        show: true,
+                        formatter: function(params) {
+                            const mark = visibleMarks.find(m => m.year === params.data.xAxis);
+                            if (mark) {
+                                return `<strong>${mark.year}年 · ${mark.name}</strong><br/>${mark.desc}`;
+                            }
+                            return params.name;
+                        }
+                    }
+                }
+            },
+            { 
+                name: '进入率', 
+                type: 'line', 
+                yAxisIndex: 1, 
+                smooth: true, 
+                data: rate,
+                itemStyle: { color: '#22c55e' }, 
+                lineStyle: { width: 2, type: 'dashed' } 
             }
-            billNewSongChart.setOption({
-                title: { text: subtitle, left: 'center', top: 5, textStyle: { fontSize: 12, color: '#6b7280',
-                        fontWeight: 'normal' } },
-                tooltip: { trigger: 'axis' },
-                legend: { data: ['新进榜数量', '进入率'], bottom: 0, textStyle: { fontSize: 11 } },
-                xAxis: { type: 'category', data: years, axisLabel: { fontSize: 10 } },
-                yAxis: [
-                    { name: '歌曲数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                    { name: '比率', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } }
-                ],
-                grid: { left: 55, right: 55, top: 35, bottom: 40 },
-                series: [
-                    { name: '新进榜数量', type: 'line', smooth: true, data: newSongs,
-                        areaStyle: { color: 'rgba(59,130,246,0.12)' }, itemStyle: { color: '#3b82f6' },
-                        lineStyle: { width: 2 } },
-                    { name: '进入率', type: 'line', yAxisIndex: 1, smooth: true, data: rate,
-                        itemStyle: { color: '#22c55e' }, lineStyle: { width: 2, type: 'dashed' } }
-                ]
-            });
-        }
+        ]
+    });
+}
+
+        // ==================== 日历热力图（月历图） ====================
+// ==================== 日历热力图（年份×月份矩阵） ====================
+function drawMonthlyCalendar() {
+    const container = document.getElementById('monthlyCalendarChart');
+    if (!container) return;
+    
+    if (!monthlyCalendarChart) {
+        monthlyCalendarChart = echarts.init(container);
+    }
+    
+    // 检查是否有数据
+    if (!monthlyData || monthlyData.length === 0) {
+        monthlyCalendarChart.setOption({
+            title: {
+                text: '暂无月度数据',
+                left: 'center',
+                top: 'center',
+                textStyle: { fontSize: 14, color: '#999' }
+            }
+        });
+        return;
+    }
+    
+    // 将月度数据按年份和月份组织成矩阵
+    // 找出数据的最小和最大年份
+    let minYear = Infinity;
+    let maxYear = -Infinity;
+    
+    monthlyData.forEach(item => {
+        if (item.year < minYear) minYear = item.year;
+        if (item.year > maxYear) maxYear = item.year;
+    });
+    
+    // 创建年份列表（从最小到最大年份）
+    const years = [];
+    for (let y = minYear; y <= maxYear; y++) {
+        years.push(y);
+    }
+    
+    // 月份列表
+    const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+    
+    // 构建数据矩阵：每个格子 [年份索引, 月份索引, 新歌数量]
+    const matrixData = [];
+    let maxNewEntries = 0;
+    
+    // 创建快速查找 Map
+    const dataMap = new Map();
+    monthlyData.forEach(item => {
+        const key = `${item.year}-${item.month}`;
+        dataMap.set(key, item.new_entries);
+        if (item.new_entries > maxNewEntries) maxNewEntries = item.new_entries;
+    });
+    
+    // 填充矩阵数据
+    years.forEach((year, yearIdx) => {
+        months.forEach((month, monthIdx) => {
+            const key = `${year}-${month}`;
+            const value = dataMap.get(key) || 0;
+            matrixData.push([monthIdx, yearIdx, value]);
+        });
+    });
+    
+    console.log(`📅 年份范围: ${minYear} - ${maxYear}`);
+    console.log(`📊 矩阵数据点数: ${matrixData.length}`);
+    console.log(`📈 最大新歌数: ${maxNewEntries}`);
+    
+    const option = {
+        title: {
+            text: '📅 月度新进榜歌曲热力图',
+            subtext: `颜色越深代表该月新歌越多 | ${minYear}-${maxYear}`,
+            left: 'center',
+            top: 5,
+            textStyle: { fontSize: 14, fontWeight: 'bold', color: '#1a1a2e' },
+            subtextStyle: { fontSize: 10, color: '#6b7280' }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: function(params) {
+                if (!params.data) return '';
+                const monthIdx = params.data[0];
+                const yearIdx = params.data[1];
+                const value = params.data[2];
+                const month = months[monthIdx];
+                const year = years[yearIdx];
+                if (value === 0) {
+                    return `<strong>${year}年 ${month}月</strong><br/>📊 该月无新歌数据`;
+                }
+                return `<strong>${year}年 ${month}月</strong><br/>🎵 新进榜歌曲: ${value} 首`;
+            }
+        },
+        visualMap: {
+            min: 0,
+            max: maxNewEntries,
+            calculable: true,
+            orient: 'horizontal',
+            left: 'center',
+            bottom: 10,
+            inRange: {
+                color: ['#ebedf0', '#d4f1f9', '#a4e0f0', '#6fc8e0', '#3ba0c0', '#1a7a9a', '#0e4e6a']
+            },
+            textStyle: { fontSize: 10 },
+            text: ['多', '少']
+        },
+        xAxis: {
+            type: 'category',
+            name: '月份',
+            nameTextStyle: { fontSize: 11, fontWeight: 'bold' },
+            data: monthNames,
+            axisLabel: { 
+                fontSize: 10,
+                rotate: 0,
+                interval: 0
+            },
+            axisLine: { lineStyle: { color: '#666' } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'category',
+            name: '年份',
+            nameTextStyle: { fontSize: 11, fontWeight: 'bold' },
+            data: years,
+            axisLabel: { 
+                fontSize: 9,
+                interval: 4
+            },
+            axisLine: { lineStyle: { color: '#666' } },
+            axisTick: { show: false },
+            inverse: true  // 年份从上到下递增
+        },
+        series: [{
+            type: 'heatmap',
+            data: matrixData,
+            label: {
+                show: false,
+                formatter: function(params) {
+                    return params.data[2] > 0 ? params.data[2] : '';
+                },
+                fontSize: 8
+            },
+            emphasis: {
+                label: { 
+                    show: true, 
+                    position: 'inside',
+                    fontSize: 11,
+                    fontWeight: 'bold'
+                },
+                itemStyle: {
+                    shadowBlur: 10,
+                    shadowColor: 'rgba(0,0,0,0.3)'
+                }
+            },
+            itemStyle: {
+                borderRadius: 4,
+                borderWidth: 1,
+                borderColor: '#fff'
+            },
+            tooltip: { trigger: 'item' }
+        }],
+        toolbox: {
+            feature: {
+                saveAsImage: { title: '保存为图片' },
+                restore: { title: '重置' },
+                dataZoom: { title: '区域缩放' }
+            },
+            right: 20,
+            top: 5
+        },
+        dataZoom: [
+            {
+                type: 'slider',
+                yAxisIndex: 0,
+                start: 0,
+                end: 100,
+                left: '93%',
+                top: '15%',
+                height: '70%'
+            },
+            {
+                type: 'inside',
+                yAxisIndex: 0,
+                start: 0,
+                end: 100
+            }
+        ],
+        backgroundColor: '#fafbfc'
+    };
+    
+    monthlyCalendarChart.setOption(option, true);
+    
+    // 窗口自适应
+    window.addEventListener('resize', () => {
+        if (monthlyCalendarChart) monthlyCalendarChart.resize();
+    });
+}
 
         // ================= Spotify 图表绘制 =================
         function drawPopScatter() {
@@ -1762,7 +2042,7 @@
                 xAxis: { name: currentMetric.charAt(0).toUpperCase() + currentMetric.slice(1),
                     nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
                 yAxis: { name: yAxisName, nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 55, right: 25, top: 20, bottom: 35 },
+                grid: { left: 55, right: 25, top: 50, bottom: 35 },
                 tooltip: {
                     formatter: p => `${p.data.name||''}<br>${currentMetric}: ${p.value[0].toFixed(3)}<br>${yAxisName}: ${formatValue(selectedYAxis,p.value[1])}<br>Popularity: ${p.value[2]}`
                 },
@@ -1793,7 +2073,7 @@
             let stats = Object.entries(map).map(([g, v]) => ({ genre: g, avg: v.reduce((s, x) => s + x, 0) / v
                     .length })).sort((a, b) => b.avg - a.avg);
             genreBarChart.setOption({
-                tooltip: { trigger: 'axis', formatter: p => `${p[0].name}<br>平均流行度: ${p[0].value}` },
+                tooltip: { trigger: 'axis', formatter: p => `${p[0].name}<br>平均流行度: ${p[0].value.toFixed(1)}` },
                 grid: { left: '20%', right: '8%', top: 15, bottom: 25 },
                 xAxis: { type: 'value', name: '均值', nameTextStyle: { fontSize: 10 },
                 axisLabel: { fontSize: 10 }, splitLine: { show: false } },
@@ -1805,67 +2085,219 @@
             });
         }
 
-        function drawPopRadar() {
-            if (!popRadarChart) popRadarChart = echarts.init(document.getElementById('popRadar'));
-            const high = spotifyData.filter(d => d.popularity >= 60);
-            const low = spotifyData.filter(d => d.popularity < 60);
-            
-            // 归一化辅助：将 loudness 映射到 0~1，tempo 除以 200 封顶
-            const normLoudness = (val) => (val + 60) / 60;  // -60~0 -> 0~1
-            const normTempo = (val) => Math.min(val / 200, 1);
-            
-            popRadarChart.setOption({
-                legend: { data: ['热门+爆款', '冷门+普通'], bottom: 0 },
-                radar: {
-                    indicator: [
-                        { name: 'Energy', max: 1 },
-                        { name: 'Dance', max: 1 },
-                        { name: 'Valence', max: 1 },
-                        { name: 'Loudness', max: 1 },
-                        { name: 'Acoustic', max: 1 },
-                        { name: 'Speech', max: 1 },
-                        { name: 'Tempo', max: 1 },
-                        { name: 'Duration', max: 1 }
-                    ],
-                    radius: '60%'
+// ==================== 平行坐标图（优化版：加深坐标轴显示） ====================
+function drawPopRadar() {
+    if (!popRadarChart) {
+        popRadarChart = echarts.init(document.getElementById('popRadar'));
+        // 支持 brush 刷选高亮
+        popRadarChart.on('brushSelected', function(params) {
+            console.log('选中了', params);
+        });
+    }
+    
+    // 获取高流行度和低流行度两组数据
+    const highGroup = spotifyData.filter(d => d.popularity >= 60);
+    const lowGroup = spotifyData.filter(d => d.popularity < 60);
+    
+    // 采样避免数据过多（每组最多200条）
+    const sampledHigh = highGroup.length > 200 ? highGroup.slice(0, 200) : highGroup;
+    const sampledLow = lowGroup.length > 200 ? lowGroup.slice(0, 200) : lowGroup;
+    
+    // 定义维度
+    const dimensions = [
+        { name: 'Energy', min: 0, max: 1, unit: '' },
+        { name: 'Danceability', min: 0, max: 1, unit: '' },
+        { name: 'Valence', min: 0, max: 1, unit: '' },
+        { name: 'Loudness', min: -60, max: 0, unit: ' dB' },
+        { name: 'Acousticness', min: 0, max: 1, unit: '' },
+        { name: 'Speechiness', min: 0, max: 1, unit: '' },
+        { name: 'Tempo', min: 0, max: 200, unit: ' BPM' },
+        { name: 'Duration', min: 30, max: 600, unit: 's' }
+    ];
+    
+    // 准备数据：每条数据是各维度的值数组
+    const highData = sampledHigh.map(d => [
+        d.energy,
+        d.danceability,
+        d.valence,
+        d.loudness,
+        d.acousticness,
+        d.speechiness,
+        d.tempo,
+        d.duration_sec
+    ]);
+    
+    const lowData = sampledLow.map(d => [
+        d.energy,
+        d.danceability,
+        d.valence,
+        d.loudness,
+        d.acousticness,
+        d.speechiness,
+        d.tempo,
+        d.duration_sec
+    ]);
+    
+    const option = {
+        title: {
+            text: '📊 高流行度 vs 低流行度歌曲特征平行坐标图',
+            left: 'center',
+            top: 5,
+            textStyle: { fontSize: 13, fontWeight: 'bold', color: '#1a1a2e' }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: function(params) {
+                if (!params.value) return '';
+                const values = params.value;
+                return `<strong>${params.seriesName}</strong><br/>
+                        🎵 Energy: ${values[0].toFixed(2)}<br/>
+                        💃 Danceability: ${values[1].toFixed(2)}<br/>
+                        😊 Valence: ${values[2].toFixed(2)}<br/>
+                        🔊 Loudness: ${values[3].toFixed(1)} dB<br/>
+                        🎸 Acousticness: ${values[4].toFixed(2)}<br/>
+                        🎤 Speechiness: ${values[5].toFixed(2)}<br/>
+                        ⚡ Tempo: ${values[6].toFixed(0)} BPM<br/>
+                        ⏱️ Duration: ${(values[7] / 60).toFixed(1)} min`;
+            }
+        },
+        legend: {
+            data: ['🔥 热门+爆款 (Popularity ≥ 60)', '❄️ 冷门+普通 (Popularity < 60)'],
+            bottom: 0,
+            left: 'center',
+            textStyle: { fontSize: 11, fontWeight: 'bold' },
+            itemWidth: 25,
+            itemHeight: 14,
+            backgroundColor: 'rgba(255,255,255,0.8)',
+            borderRadius: 4,
+            padding: [4, 12, 4, 12]
+        },
+        // 平行坐标轴配置 - 重点优化部分
+        parallelAxis: dimensions.map((dim, idx) => ({
+            dim: idx,
+            name: dim.name,
+            nameTextStyle: { 
+                fontSize: 12, 
+                fontWeight: 'bold', 
+                color: '#2c3e6b',  // 深蓝色，更醒目
+                fontFamily: 'monospace'
+            },
+            axisLabel: {
+                fontSize: 10,
+                fontWeight: 'bold',
+                color: '#4a4a6a',   // 深灰色
+                showMinLabel: true,
+                showMaxLabel: true
+            },
+            axisLine: { 
+                lineStyle: { 
+                    color: '#2c3e6b',  // 坐标轴线加深
+                    width: 2,
+                    type: 'solid'
+                } 
+            },
+            axisTick: {
+                show: true,
+                lineStyle: { color: '#2c3e6b', width: 1.5 },
+                length: 6
+            },
+            splitLine: {
+                show: true,
+                lineStyle: { color: '#d1d5db', width: 0.5, type: 'dashed' }
+            },
+            min: dim.min,
+            max: dim.max,
+            nameLocation: 'middle',
+            nameGap: 45,
+            // 添加背景色块增强可读性
+            areaStyle: {
+                color: 'rgba(44,62,107,0.04)'
+            }
+        })),
+        parallel: {
+            left: '5%',
+            right: '13%',
+            top: '15%',
+            bottom: '12%',
+            parallelAxisDefault: {
+                type: 'value',
+                tooltip: { show: true },
+                axisTick: { show: true }
+            },
+            // 添加背景网格增强可读性
+            backgroundColor: 'rgba(0,0,0,0.02)'
+        },
+        series: [
+            {
+                name: '🔥 热门+爆款 (Popularity ≥ 60)',
+                type: 'parallel',
+                lineStyle: {
+                    width: 1,
+                    color: '#f97316',
+                    opacity: 0.3,
+                    type: 'solid'
                 },
-                series: [{
-                    type: 'radar',
-                    data: [
-                        {
-                            name: '热门+爆款',
-                            value: [
-                                avg(high, 'energy'),
-                                avg(high, 'danceability'),
-                                avg(high, 'valence'),
-                                normLoudness(avg(high, 'loudness')),
-                                avg(high, 'acousticness'),
-                                avg(high, 'speechiness'),
-                                normTempo(avg(high, 'tempo')),
-                                avg(high, 'duration_sec') / 300  // 归一化：假设最长歌曲5分钟
-                            ],
-                            itemStyle: { color: '#f97316' },
-                            areaStyle: { color: 'rgba(249,115,22,0.2)' }
-                        },
-                        {
-                            name: '冷门+普通',
-                            value: [
-                                avg(low, 'energy'),
-                                avg(low, 'danceability'),
-                                avg(low, 'valence'),
-                                normLoudness(avg(low, 'loudness')),
-                                avg(low, 'acousticness'),
-                                avg(low, 'speechiness'),
-                                normTempo(avg(low, 'tempo')),
-                                avg(low, 'duration_sec') / 300  // 归一化：假设最长歌曲5分钟
-                            ],
-                            itemStyle: { color: '#64748b' },
-                            areaStyle: { color: 'rgba(100,116,139,0.12)' }
-                        }
-                    ]
-                }]
-            });
+                data: highData,
+                emphasis: {
+                    lineStyle: { width: 2.5, opacity: 0.9, color: '#f97316' },
+                    label: { show: false }
+                },
+                smooth: true,
+                z: 1  // 设置层级，让坐标轴在上方
+            },
+            {
+                name: '❄️ 冷门+普通 (Popularity < 60)',
+                type: 'parallel',
+                lineStyle: {
+                    width: 0.8,
+                    color: '#64748b',
+                    opacity: 0.2,
+                    type: 'solid'
+                },
+                data: lowData,
+                emphasis: {
+                    lineStyle: { width: 2, opacity: 0.6, color: '#64748b' }
+                },
+                smooth: true,
+                z: 0
+            }
+        ],
+        toolbox: {
+            feature: {
+                brush: { type: ['lineX', 'clear'], title: { lineX: '区域刷选', clear: '清除' } },
+                saveAsImage: { title: '保存为图片' },
+                restore: { title: '重置' }
+            },
+            right: 20,
+            top: 5
+        },
+        brush: {
+            brushLink: 'all',
+            xAxisIndex: 'all',
+            throttleType: 'debounce',
+            throttleDelay: 100,
+            inBrush: { opacity: 1 },
+            outOfBrush: { opacity: 0.05 },
+            brushStyle: {
+                borderWidth: 2,
+                color: 'rgba(249,115,22,0.15)',
+                borderColor: '#f97316'
+            }
+        },
+        backgroundColor: '#fafbfc',
+        // 添加全局文字样式
+        textStyle: {
+            fontFamily: 'Crimson Text, Georgia, serif'
         }
+    };
+    
+    popRadarChart.setOption(option, true);
+    
+    // 添加 resize 监听
+    window.addEventListener('resize', () => {
+        if (popRadarChart) popRadarChart.resize();
+    });
+}
 
         function drawPopBar() {
             if (!popBarChart) {
@@ -1883,7 +2315,7 @@
             popBarChart.setOption({
                 xAxis: { type: 'category', data: levels, axisLabel: { fontSize: 10 }, triggerEvent: true },
                 yAxis: { name: '歌曲数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 48, right: 20, top: 20, bottom: 30 },
+                grid: { left: 48, right: 20, top: 50, bottom: 30 },
                 series: [{ type: 'bar', data: levels.map((l, i) => ({ value: counts[i],
                         itemStyle: { color: selectedLevels.includes(l) ? '#f97316' : '#3b82f6' },
                         name: l })) }]
@@ -1891,24 +2323,100 @@
         }
 
         // ================= 场景图表绘制 =================
-        function drawSceneBar() {
-            if (!sceneBarChart) {
-                sceneBarChart = echarts.init(document.getElementById('sceneBar'));
-                sceneBarChart.on('click', p => {
-                    let name = p.name || p.value;
-                    toggleScene(name);
-                });
+function drawSceneBar() {
+    if (!sceneBarChart) {
+        sceneBarChart = echarts.init(document.getElementById('sceneBar'));
+        sceneBarChart.on('click', p => { if (p.componentType === 'series') { let name = p.name; toggleScene(name); } });
+    }
+    let scenes = Object.keys(sceneData);
+    let values = scenes.map(s => sceneData[s].length);
+    
+    // 按数量排序
+    const sorted = scenes.map((s, i) => ({ name: s, value: values[i] })).sort((a, b) => b.value - a.value);
+    const sortedScenes = sorted.map(s => s.name);
+    const sortedValues = sorted.map(s => s.value);
+    
+    const option = {
+        title: { 
+            text: '各场景歌曲数量分布', 
+            left: 'center', 
+            top: 0, 
+            textStyle: { fontSize: 13, fontWeight: 'bold', color: '#1a1a2e' } 
+        },
+        tooltip: { 
+            trigger: 'item', 
+            formatter: function(p) {
+                return `<strong>${p.name}</strong><br/>
+                        歌曲数量: ${p.value}<br/>
+                        占比: ${p.percent}%<br/>
+                        ${selectedScenes.includes(p.name) ? '✅ 已选中' : '🔘 点击筛选'}`;
             }
-            let scenes = Object.keys(sceneData);
-            sceneBarChart.setOption({
-                xAxis: { type: 'category', data: scenes, axisLabel: { rotate: 25, fontSize: 10 }, triggerEvent: true },
-                yAxis: { name: '歌曲数', nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 48, right: 20, top: 20, bottom: 40 },
-                series: [{ type: 'bar', data: scenes.map(s => ({ value: sceneData[s].length,
-                        itemStyle: { color: selectedScenes.includes(s) ? '#f97316' : '#3b82f6' },
-                        name: s })) }]
-            });
-        }
+        },
+        legend: { 
+            orient: 'vertical', 
+            right: 10, 
+            top: 30, 
+            bottom: 20, 
+            data: sortedScenes, 
+            textStyle: { fontSize: 11 }, 
+            formatter: function(n) { 
+                let count = sceneData[n] ? sceneData[n].length : 0;
+                return `${n}  (${count}首)`; 
+            },
+            itemWidth: 20,
+            itemHeight: 12
+        },
+        series: [{
+            type: 'pie',
+            radius: ['45%', '70%'],
+            center: ['40%', '55%'],
+            avoidLabelOverlap: false,
+            data: sortedScenes.map((s, i) => ({ 
+                name: s, 
+                value: sortedValues[i],
+                itemStyle: { 
+                    color: selectedScenes.includes(s) ? '#f97316' : '#3b82f6',
+                    borderRadius: 10,      // 圆角，增加空隙感
+                    borderColor: '#ffffff',
+                    borderWidth: 4          // 关键：增加白色边框宽度，形成明显空隙
+                }
+            })),
+            label: { 
+                show: true, 
+                position: 'outside', 
+                formatter: '{b}', 
+                fontSize: 10,
+                fontWeight: 'bold'
+            },
+            labelLine: { 
+                length: 12, 
+                length2: 12, 
+                smooth: true 
+            },
+            emphasis: { 
+                scale: true, 
+                label: { show: true, fontWeight: 'bold' },
+                itemStyle: { shadowBlur: 10, shadowOffsetX: 0, shadowColor: 'rgba(0, 0, 0, 0.2)' }
+            }
+        }],
+        graphic: [
+            {
+                type: 'text',
+                left: 'center',
+                top: 18,
+                style: {
+                    text: '点击扇区可筛选该场景',
+                    fill: '#9ca3af',
+                    fontSize: 10
+                },
+                z: 100
+            }
+        ],
+        backgroundColor: '#fafbfc'
+    };
+    
+    sceneBarChart.setOption(option, true);
+}
 
         function drawEmotion() {
             if (!emotionChart) emotionChart = echarts.init(document.getElementById('emotionScatter'));
@@ -1928,7 +2436,7 @@
                     axisLabel: { fontSize: 10 } },
                 yAxis: { name: nameMap[emotionYAxis] || emotionYAxis, nameTextStyle: { fontSize: 10 },
                     axisLabel: { fontSize: 10 } },
-                grid: { left: 55, right: 22, top: 20, bottom: 32 },
+                grid: { left: 55, right: 22, top: 50, bottom: 32 },
                 tooltip: { trigger: 'item',
                     formatter: p => `${emotionXAxis}: ${p.value[0].toFixed(3)}<br>${emotionYAxis}: ${p.value[1].toFixed(3)}` },
                 series: [{ type: 'scatter', data: data.map(d => [d[emotionXAxis], d[emotionYAxis]]),
@@ -1947,341 +2455,248 @@
                         areaStyle: { color: 'rgba(99,102,241,0.15)' } }] }]
             });
         }
-
-        function drawFeatureCompare() {
-            let container = document.getElementById('featureCompare');
-            if (!container) return;
-            if (!featureCompareChart) featureCompareChart = echarts.init(container);
-            let groups = { '爆款': spotifyData.filter(d => d.popularity > 70), '普通': spotifyData.filter(d => d
-                    .popularity < 40) };
-            let normalize = (val, min, max) => (val - min) / (max - min);
-            let loudnessMin = -60,
-                loudnessMax = 0;
-            let durationMin = 30,
-                durationMax = 600;
-            featureCompareChart.setOption({
-                legend: { data: ['爆款', '普通'], bottom: 0, textStyle: { fontSize: 10 } },
-                xAxis: { type: 'category', data: ['Energy', 'Danceability', 'Valence', 'Loudness',
-                        'Duration'
-                    ], axisLabel: { fontSize: 10 } },
-                yAxis: { max: 1, nameTextStyle: { fontSize: 10 }, axisLabel: { fontSize: 10 } },
-                grid: { left: 42, right: 20, top: 20, bottom: 35 },
-                series: [
-                    { name: '爆款', type: 'bar', data: [
-                            avg(groups['爆款'], 'energy'), avg(groups['爆款'], 'danceability'),
-                            avg(groups['爆款'], 'valence'), normalize(avg(groups['爆款'],
-                                'loudness'), loudnessMin, loudnessMax), normalize(avg(groups[
-                                '爆款'], 'duration_sec'), durationMin, durationMax)
-                        ], itemStyle: { color: '#f97316' } },
-                    { name: '普通', type: 'bar', data: [
-                            avg(groups['普通'], 'energy'), avg(groups['普通'], 'danceability'),
-                            avg(groups['普通'], 'valence'), normalize(avg(groups['普通'],
-                                'loudness'), loudnessMin, loudnessMax), normalize(avg(groups[
-                                '普通'], 'duration_sec'), durationMin, durationMax)
-                        ], itemStyle: { color: '#64748b' } }
-                ]
-            });
-        }
         
-// ==================== 歌曲生命周期折线图（适配新JSON格式：歌名前显示计数） ====================
-function drawSongLifecycle() {
-    const container = document.getElementById('songLifecycleChart');
-    if (!container) return;
-    
-    if (!songLifecycleChart) {
-        songLifecycleChart = echarts.init(container);
-    }
-    
-    // 如果没有数据，显示提示
-    if (!songLifecycleData || songLifecycleData.length === 0) {
-        songLifecycleChart.setOption({
-            title: {
-                text: '暂无数据',
-                left: 'center',
-                top: 'center',
-                textStyle: { fontSize: 14, color: '#999' }
+        // ==================== 歌曲生命周期折线图 ====================
+        function drawSongLifecycle() {
+            const container = document.getElementById('songLifecycleChart');
+            if (!container) return;
+            
+            if (!songLifecycleChart) {
+                songLifecycleChart = echarts.init(container);
             }
-        });
-        return;
+            
+            if (!songLifecycleData || songLifecycleData.length === 0) {
+                songLifecycleChart.setOption({
+                    title: {
+                        text: '暂无数据',
+                        left: 'center',
+                        top: 'center',
+                        textStyle: { fontSize: 14, color: '#999' }
+                    }
+                });
+                return;
+            }
+            
+            const circleNumbers = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩',
+                                   '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳'];
+            
+            const songGroupMap = new Map();
+            
+            songLifecycleData.forEach((item) => {
+                const songKey = `${item.song}|${item.performer}`;
+                if (!songGroupMap.has(songKey)) {
+                    songGroupMap.set(songKey, {
+                        song: item.song,
+                        performer: item.performer,
+                        cycles: []
+                    });
+                }
+                const group = songGroupMap.get(songKey);
+                group.cycles.push({
+                    dates: item.dates,
+                    positions: item.positions,
+                    peak: item.peak,
+                    year: item.year,
+                    timeOnChart: item.timeOnChart,
+                    cycleIndex: item.cycleIndex || item.cycleNumber,
+                    debutDate: item.debutDate
+                });
+            });
+            
+            for (let group of songGroupMap.values()) {
+                group.cycles.sort((a, b) => {
+                    return new Date(a.debutDate) - new Date(b.debutDate);
+                });
+            }
+            
+            const seriesData = [];
+            const colorPalette = [
+                '#5470c6', '#fac858', '#ee6666', '#73c0de', '#3ba272', 
+                '#fc8452', '#9a60b4', '#ea7ccc', '#6a4e9b', '#c23531',
+                '#2f4554', '#61a0a8', '#d48265', '#91c7ae', '#749f83'
+            ];
+            
+            let colorIndex = 0;
+            
+            for (let group of songGroupMap.values()) {
+                const cycles = group.cycles;
+                const songName = group.song;
+                const performerName = group.performer;
+                const baseColor = colorPalette[colorIndex % colorPalette.length];
+                
+                cycles.forEach((cycle, cycleIdx) => {
+                    const dates = cycle.dates;
+                    const positions = cycle.positions;
+                    
+                    if (!dates || !positions || dates.length === 0) return;
+                    
+                    const cycleNum = cycle.cycleIndex || (cycleIdx + 1);
+                    const cycleNumber = circleNumbers[cycleNum - 1] || `(${cycleNum})`;
+                    
+                    const dataPoints = dates.map((date, i) => ({
+                        value: [date, positions[i]],
+                        name: `${songName}\n${performerName}\n${cycleNumber} 第${cycleNum}次上榜\n日期: ${date}\n排名: #${positions[i]}\n最高排名: #${cycle.peak}\n在榜周数: ${cycle.timeOnChart}周`
+                    }));
+                    
+                    if (dataPoints.length > 0) {
+                        const lastPoint = dataPoints[dataPoints.length - 1];
+                        const displayLabel = `${cycleNumber} ${songName}`;
+                        lastPoint.label = {
+                            show: true,
+                            position: 'end',
+                            offset: [8, 0],
+                            formatter: displayLabel,
+                            fontSize: 10,
+                            color: baseColor,
+                            fontWeight: 'bold',
+                            backgroundColor: 'rgba(255, 255, 255, 0.85)',
+                            padding: [2, 6, 2, 6],
+                            borderRadius: 12,
+                            borderColor: baseColor,
+                            borderWidth: 1
+                        };
+                    }
+                    
+                    const seriesName = `${cycleNumber} ${songName} - ${performerName} (${cycle.year})`;
+                    
+                    seriesData.push({
+                        name: seriesName,
+                        type: 'line',
+                        data: dataPoints,
+                        smooth: false,
+                        symbol: 'circle',
+                        symbolSize: 5,
+                        lineStyle: { width: 2, color: baseColor, type: 'solid' },
+                        itemStyle: { color: baseColor, borderColor: '#fff', borderWidth: 1 },
+                        emphasis: { focus: 'series', lineStyle: { width: 3, shadowBlur: 8 } },
+                        connectNulls: false,
+                        step: false
+                    });
+                });
+                colorIndex++;
+            }
+            
+            if (seriesData.length === 0) {
+                songLifecycleChart.setOption({
+                    title: { text: '暂无有效数据', left: 'center', top: 'center', textStyle: { fontSize: 14, color: '#999' } }
+                });
+                return;
+            }
+            
+            const option = {
+                title: { text: '🎵 代表性歌曲 Billboard 排行榜生命周期', left: 'center', top: 5,
+                    textStyle: { fontSize: 14, fontWeight: 'bold', color: '#1a1a2e' } },
+                tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' },
+                    formatter: function(params) {
+                        if (!params || params.length === 0) return '';
+                        let result = `<strong>📅 ${params[0].axisValue}</strong><br/>`;
+                        const sorted = [...params].sort((a, b) => a.value[1] - b.value[1]);
+                        for (let p of sorted) {
+                            const color = p.color;
+                            const rank = p.value[1];
+                            let songName = p.seriesName;
+                            if (songName.length > 50) songName = songName.substring(0, 47) + '...';
+                            result += `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${color};margin-right:6px;"></span>`;
+                            result += `<span style="font-weight:bold;">${songName}</span>: #${rank}<br/>`;
+                        }
+                        return result;
+                    }
+                },
+                legend: { type: 'scroll', orient: 'horizontal', right: 10, top: 40, left: 'auto',
+                    itemWidth: 25, itemHeight: 14, textStyle: { fontSize: 10 },
+                    pageIconColor: '#5470c6', pageTextStyle: { fontSize: 10 },
+                    formatter: function(name) { return name.length > 50 ? name.substring(0, 47) + '...' : name; } },
+                grid: { left: '8%', right: '8%', top: '18%', bottom: '12%', containLabel: true },
+                xAxis: { type: 'time', name: '时间', nameTextStyle: { fontSize: 12, fontWeight: 'bold' },
+                    axisLabel: { fontSize: 10, rotate: 0, formatter: function(value) {
+                        const date = new Date(value); return `${date.getFullYear()}`; } },
+                    axisLine: { lineStyle: { color: '#666' } }, axisTick: { show: true },
+                    splitLine: { show: true, lineStyle: { type: 'dashed', color: '#e0e0e0' } } },
+                yAxis: { type: 'value', name: '排名', nameTextStyle: { fontSize: 12, fontWeight: 'bold' },
+                    axisLabel: { fontSize: 10, formatter: function(value) { return `#${value}`; } },
+                    inverse: true, min: 1, max: 100, axisLine: { lineStyle: { color: '#666' } },
+                    axisTick: { show: true }, splitLine: { show: true, lineStyle: { type: 'dashed', color: '#e0e0e0' } },
+                    nameLocation: 'middle', nameGap: 45 },
+                series: seriesData,
+                toolbox: { feature: { saveAsImage: { title: '保存为图片' }, restore: { title: '重置' }, zoom: { title: '区域缩放' } }, right: 20, top: 5 },
+                dataZoom: [{ type: 'inside', xAxisIndex: 0, start: 0, end: 100 },
+                           { type: 'slider', xAxisIndex: 0, start: 0, end: 100, bottom: 10, height: 20 }],
+                backgroundColor: '#fdfdfd'
+            };
+            
+            songLifecycleChart.setOption(option, true);
+            window.addEventListener('resize', () => { if (songLifecycleChart) songLifecycleChart.resize(); });
+        }
+        function updateTimelineProgress() {
+    const scrollY = window.scrollY;
+    const documentHeight = document.body.scrollHeight;
+    const windowHeight = window.innerHeight;
+    const maxScroll = documentHeight - windowHeight;
+    
+    if (maxScroll <= 0) return;
+    
+    const percent = scrollY / maxScroll;
+    const trackHeight = 380;
+    const indicatorTop = percent * trackHeight;
+    
+    const indicator = document.getElementById('progressIndicator');
+    if (indicator) {
+        indicator.style.top = indicatorTop + 'px';
     }
     
-    // 圆圈数字符号映射 (最多支持20次上榜)
-    const circleNumbers = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩',
-                           '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳'];
+    const nodes = document.querySelectorAll('.media-node');
+    let activeNode = null;
     
-    // 按歌曲名+艺人名分组，统计每个歌手的每首歌的上榜周期数
-    const songGroupMap = new Map();
-    
-    songLifecycleData.forEach((item) => {
-        const songKey = `${item.song}|${item.performer}`;
-        if (!songGroupMap.has(songKey)) {
-            songGroupMap.set(songKey, {
-                song: item.song,
-                performer: item.performer,
-                cycles: []
-            });
+    nodes.forEach(node => {
+        const pos = parseInt(node.dataset.pos) || 0;
+        if (percent * 100 >= pos) {
+            activeNode = node;
         }
-        const group = songGroupMap.get(songKey);
-        group.cycles.push({
-            dates: item.dates,
-            positions: item.positions,
-            peak: item.peak,
-            year: item.year,
-            timeOnChart: item.timeOnChart,
-            cycleIndex: item.cycleIndex || item.cycleNumber,
-            debutDate: item.debutDate
-        });
     });
     
-    // 对每首歌的周期按首次上榜时间排序
-    for (let group of songGroupMap.values()) {
-        group.cycles.sort((a, b) => {
-            return new Date(a.debutDate) - new Date(b.debutDate);
-        });
-    }
-    
-    // 准备数据
-    const seriesData = [];
-    const colorPalette = [
-        '#5470c6', '#fac858', '#ee6666', '#73c0de', '#3ba272', 
-        '#fc8452', '#9a60b4', '#ea7ccc', '#6a4e9b', '#c23531',
-        '#2f4554', '#61a0a8', '#d48265', '#91c7ae', '#749f83'
-    ];
-    
-    let colorIndex = 0;
-    
-    // 遍历每首歌（分组后的）
-    for (let group of songGroupMap.values()) {
-        const cycles = group.cycles;
-        const songName = group.song;
-        const performerName = group.performer;
-        const baseColor = colorPalette[colorIndex % colorPalette.length];
-        
-        console.log(`📀 歌曲: ${songName} - ${performerName}, 上榜周期数: ${cycles.length}`);
-        
-        // 为每个周期创建系列
-        cycles.forEach((cycle, cycleIdx) => {
-            const dates = cycle.dates;
-            const positions = cycle.positions;
-            
-            if (!dates || !positions || dates.length === 0) return;
-            
-            // 计数量：使用圆圈数字
-            const cycleNum = cycle.cycleIndex || (cycleIdx + 1);
-            const cycleNumber = circleNumbers[cycleNum - 1] || `(${cycleNum})`;
-            
-            // 准备数据点
-            const dataPoints = dates.map((date, i) => ({
-                value: [date, positions[i]],
-                name: `${songName}\n${performerName}\n${cycleNumber} 第${cycleNum}次上榜\n日期: ${date}\n排名: #${positions[i]}\n最高排名: #${cycle.peak}\n在榜周数: ${cycle.timeOnChart}周`
-            }));
-            
-            // 只在最后一个数据点显示标签
-            if (dataPoints.length > 0) {
-                const lastPoint = dataPoints[dataPoints.length - 1];
-                // 显示格式：① Bohemian Rhapsody
-                const displayLabel = `${cycleNumber} ${songName}`;
-                lastPoint.label = {
-                    show: true,
-                    position: 'end',
-                    offset: [8, 0],
-                    formatter: displayLabel,
-                    fontSize: 10,
-                    color: baseColor,
-                    fontWeight: 'bold',
-                    backgroundColor: 'rgba(255, 255, 255, 0.85)',
-                    padding: [2, 6, 2, 6],
-                    borderRadius: 12,
-                    borderColor: baseColor,
-                    borderWidth: 1
-                };
-            }
-            
-            // 系列名称
-            const seriesName = `${cycleNumber} ${songName} - ${performerName} (${cycle.year})`;
-            
-            seriesData.push({
-                name: seriesName,
-                type: 'line',
-                data: dataPoints,
-                smooth: false,
-                symbol: 'circle',
-                symbolSize: 5,
-                lineStyle: {
-                    width: 2,
-                    color: baseColor,
-                    type: 'solid'
-                },
-                itemStyle: {
-                    color: baseColor,
-                    borderColor: '#fff',
-                    borderWidth: 1
-                },
-                emphasis: {
-                    focus: 'series',
-                    lineStyle: {
-                        width: 3,
-                        shadowBlur: 8
-                    }
-                },
-                connectNulls: false,
-                step: false
-            });
-        });
-        
-        colorIndex++;
-    }
-    
-    // 如果没有有效数据，显示提示
-    if (seriesData.length === 0) {
-        songLifecycleChart.setOption({
-            title: {
-                text: '暂无有效数据',
-                left: 'center',
-                top: 'center',
-                textStyle: { fontSize: 14, color: '#999' }
-            }
-        });
-        return;
-    }
-    
-    // 配置图表
-    const option = {
-        title: {
-            text: '🎵 代表性歌曲 Billboard 排行榜生命周期',
-            left: 'center',
-            top: 5,
-            textStyle: {
-                fontSize: 14,
-                fontWeight: 'bold',
-                color: '#1a1a2e'
-            }
-        },
-        tooltip: {
-            trigger: 'axis',
-            axisPointer: {
-                type: 'shadow'
-            },
-            formatter: function(params) {
-                if (!params || params.length === 0) return '';
-                let result = `<strong>📅 ${params[0].axisValue}</strong><br/>`;
-                const sorted = [...params].sort((a, b) => a.value[1] - b.value[1]);
-                for (let p of sorted) {
-                    const color = p.color;
-                    const rank = p.value[1];
-                    let songName = p.seriesName;
-                    if (songName.length > 50) {
-                        songName = songName.substring(0, 47) + '...';
-                    }
-                    result += `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${color};margin-right:6px;"></span>`;
-                    result += `<span style="font-weight:bold;">${songName}</span>: #${rank}<br/>`;
-                }
-                return result;
-            }
-        },
-        legend: {
-            type: 'scroll',
-            orient: 'horizontal',
-            right: 10,
-            top: 40,
-            left: 'auto',
-            itemWidth: 25,
-            itemHeight: 14,
-            textStyle: { fontSize: 10 },
-            pageIconColor: '#5470c6',
-            pageTextStyle: { fontSize: 10 },
-            formatter: function(name) {
-                if (name.length > 50) {
-                    return name.substring(0, 47) + '...';
-                }
-                return name;
-            }
-        },
-        grid: {
-            left: '8%',
-            right: '8%',
-            top: '18%',
-            bottom: '12%',
-            containLabel: true
-        },
-        xAxis: {
-            type: 'time',
-            name: '时间',
-            nameTextStyle: { fontSize: 12, fontWeight: 'bold' },
-            axisLabel: {
-                fontSize: 10,
-                rotate: 0,
-                formatter: function(value) {
-                    const date = new Date(value);
-                    return `${date.getFullYear()}`;
-                }
-            },
-            axisLine: { lineStyle: { color: '#666' } },
-            axisTick: { show: true },
-            splitLine: { show: true, lineStyle: { type: 'dashed', color: '#e0e0e0' } }
-        },
-        yAxis: {
-            type: 'value',
-            name: '排名',
-            nameTextStyle: { fontSize: 12, fontWeight: 'bold' },
-            axisLabel: {
-                fontSize: 10,
-                formatter: function(value) {
-                    return `#${value}`;
-                }
-            },
-            inverse: true,
-            min: 1,
-            max: 100,
-            axisLine: { lineStyle: { color: '#666' } },
-            axisTick: { show: true },
-            splitLine: { show: true, lineStyle: { type: 'dashed', color: '#e0e0e0' } },
-            nameLocation: 'middle',
-            nameGap: 45
-        },
-        series: seriesData,
-        toolbox: {
-            feature: {
-                saveAsImage: { title: '保存为图片' },
-                restore: { title: '重置' },
-                zoom: { title: '区域缩放' }
-            },
-            right: 20,
-            top: 5
-        },
-        dataZoom: [
-            {
-                type: 'inside',
-                xAxisIndex: 0,
-                start: 0,
-                end: 100
-            },
-            {
-                type: 'slider',
-                xAxisIndex: 0,
-                start: 0,
-                end: 100,
-                bottom: 10,
-                height: 20
-            }
-        ],
-        backgroundColor: '#fdfdfd'
-    };
-    
-    songLifecycleChart.setOption(option, true);
-    
-    // 窗口自适应
-    window.addEventListener('resize', () => {
-        if (songLifecycleChart) {
-            songLifecycleChart.resize();
+    nodes.forEach(node => {
+        if (node === activeNode) {
+            node.classList.add('active');
+        } else {
+            node.classList.remove('active');
         }
     });
 }
-                // ================= 占位函数（保留原有调用） =================
-        function drawEraTrend() { /* 占位 - 数据集成后补充 */ }
-        function drawKeyDonut() { /* 占位 */ }
-        function drawTempoDanceScatter() { /* 占位 */ }
-        function drawInstrumentCompare() { /* 占位 */ }
+
+function initTimelineClick() {
+    const nodes = document.querySelectorAll('.media-node');
+    const scrollTargets = [
+        { scrollY: 0 },
+        { scrollY: document.getElementById('section1')?.offsetTop - 100 || 300 },
+        { scrollY: document.getElementById('section2')?.offsetTop - 100 || 800 },
+        { scrollY: document.getElementById('section3')?.offsetTop - 100 || 1500 },
+        { scrollY: document.getElementById('billTrend')?.offsetTop - 100 || 2000 },
+        { scrollY: document.getElementById('billLife')?.offsetTop - 100 || 2500 },
+        { scrollY: document.getElementById('billNewSong')?.offsetTop - 100 || 3000 },
+        { scrollY: document.getElementById('songLifecycleChart')?.offsetTop - 100 || 3500 },
+        { scrollY: document.body.scrollHeight * 0.7 }
+    ];
+    
+    nodes.forEach((node, idx) => {
+        node.addEventListener('click', () => {
+            const target = scrollTargets[idx];
+            if (target && target.scrollY !== undefined) {
+                window.scrollTo({ top: target.scrollY, behavior: 'smooth' });
+            }
+        });
+    });
+}
+
+window.addEventListener('scroll', updateTimelineProgress);
+window.addEventListener('load', () => {
+    updateTimelineProgress();
+    initTimelineClick();
+});
+        // ================= 占位函数 =================
+        function drawEraTrend() { }
+        function drawKeyDonut() { }
+        function drawTempoDanceScatter() { }
+        function drawInstrumentCompare() { }
     </script>
 </body>
 </html>
